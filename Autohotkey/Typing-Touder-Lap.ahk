@@ -1,3 +1,7 @@
+!e::
+MouseClick, Left, 1062, 1250, 1, 0
+Return
+
 
 #r::
 Goto, Reload
@@ -42,6 +46,17 @@ Return
 Cheat:
 Loop, 5
 {
+        Sleep, 100
+        MouseClick, Left, 1062, 1250, 1, 0
+        Sleep, 300
+        Send, ^a
+        Sleep, 300
+        Send, {Delete}
+        Sleep, 300
+        Send, 7
+        Sleep, 300
+        Send, {Enter}
+        Sleep, 800
         MouseClick, Left,  1473, 766, 1, 0,
         Sleep, 50
         Send, aaaa{Space}aaaa{Space}aaaa{Space}aaaa
@@ -99,13 +114,16 @@ Loop, 5
         Sleep, 400
         MouseClick, Left,  1473, 766, 1, 0,
         Send, The{Space}Quick{Space}Brown{Space}Fox{Space}Jumped
-        Sleep, 50
-        MouseClick, Left, 1189, 1361, 1, 0
-        Sleep, 50
-        Send, #a
-        Sleep, 50
+        Sleep, 100
+        MouseClick, Left, 1062, 1250, 1, 0
+        Sleep, 300
+        Send, ^a
+        Sleep, 300
         Send, {Delete}
-        Sleep, 50
+        Sleep, 300
         Send, 7
+        Sleep, 300
+        Send, {Enter}
+        Sleep, 800
 }
 Return
