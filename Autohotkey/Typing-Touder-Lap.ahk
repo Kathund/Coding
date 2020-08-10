@@ -1,4 +1,4 @@
-x#r::
+#r::
 Goto, Reload
 Return
 
