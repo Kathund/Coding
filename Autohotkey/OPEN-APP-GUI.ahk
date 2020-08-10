@@ -1,4 +1,6 @@
-Menu, TRAY, Icon, C:\Users\crbra\OneDrive\Desktop\Not School\GIthub\Coding\ICONS\open-app.ico
+Menu, TRAY, Icon, C:\Users\crbra\OneDrive\Desktop\Not School\Github\Coding\ICONS\open-app.ico
+
+::idk::i don't know
 
 GUI:
 Gui 1: Default
@@ -54,7 +56,7 @@ Return
 
 XnnY:
 Gui 16: Destroy
-Run, C:\Users\crbra\OneDrive\Desktop\Not School\coding\Autohotkey\x and y.ahk
+Run, C:\Users\crbra\OneDrive\Desktop\Not School\GIthub\Coding\Autohotkey\x and y.ahk
 Return
 
 Soundboard:
@@ -86,27 +88,27 @@ SoundPlay, egegtgtg.mp333
 Return
 
 Gay:
-SoundPlay, C:\Users\crbra\OneDrive\Desktop\Not School\GIthub\Coding\Soundboard\I'm gay sound.mp3
+SoundPlay, C:\Users\crbra\OneDrive\Desktop\Not School\Github\Coding\Soundboard\I'm gay sound.mp3
 Return
 
 GameCube:
-SoundPlay, C:\Users\crbra\OneDrive\Desktop\Not School\GIthub\Coding\Soundboard\GAMECUBE.mp3
+SoundPlay, C:\Users\crbra\OneDrive\Desktop\Not School\Github\Coding\Soundboard\GAMECUBE.mp3
 Return
 
 Windows:
-SoundPlay, C:\Users\crbra\OneDrive\Desktop\Not School\GIthub\Coding\Soundboard\WIndows xp.mp3
+SoundPlay, C:\Users\crbra\OneDrive\Desktop\Not School\Github\Coding\Soundboard\WIndows xp.mp3
 Return
 
 TOMMASLOAD:
-SoundPlay, C:\Users\crbra\OneDrive\Desktop\Not School\GIthub\Coding\Soundboard\TOMMMMASS LOUD.mp3
+SoundPlay, C:\Users\crbra\OneDrive\Desktop\Not School\Github\Coding\Soundboard\TOMMMMASS LOUD.mp3
 Return
 
 oof:
-SoundPlay, C:\Users\crbra\OneDrive\Desktop\Not School\GIthub\Coding\Soundboard\Oof.mp3
+SoundPlay, C:\Users\crbra\OneDrive\Desktop\Not School\Github\Coding\Soundboard\Oof.mp3
 Return
 
 Airhorn:
-SoundPlay, C:\Users\crbra\OneDrive\Desktop\Not School\GIthub\Coding\Soundboard\AIRHORN.mp3
+SoundPlay, C:\Users\crbra\OneDrive\Desktop\Not School\Github\Coding\Soundboard\AIRHORN.mp3
 Return
 
 Screenshot:
