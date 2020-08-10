@@ -54,7 +54,7 @@ Return
 
 XnnY:
 Gui 16: Destroy
-Run, C:\Users\crbra\OneDrive\Desktop\Not School\coding\Autohotkey\x and y.ahk
+Run, C:\Users\crbra\OneDrive\Desktop\Not School\GIthub\Coding\Autohotkey\x and y.ahk
 Return
 
 Soundboard:
