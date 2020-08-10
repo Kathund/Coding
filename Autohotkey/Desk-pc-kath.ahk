@@ -1,6 +1,8 @@
 !Enter::
 MouseGetPos, xx, yy
+Sleep, 50
 MouseClick, left, 1558, 1035, 1, 0,
+Sleep, 300
 MouseMove, %xx%, %yy%
 Return
 
