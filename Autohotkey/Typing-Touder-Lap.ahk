@@ -1,8 +1,3 @@
-!e::
-MouseClick, Left, 1062, 1250, 1, 0
-Return
-
-
 #r::
 Goto, Reload
 Return
