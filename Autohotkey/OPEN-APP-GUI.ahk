@@ -1,6 +1,5 @@
 Menu, TRAY, Icon, C:\Users\crbra\OneDrive\Desktop\Not School\Github\Coding\ICONS\open-app.ico
 
-::idk::i don't know
 
 GUI:
 Gui 1: Default
