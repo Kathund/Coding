@@ -1,55 +1,3 @@
-Help:
-SplashTextOn, 300, 150, Typing Tutor Cheat, Please Read all of this to use this without any problems.
-WinMove, Typing Tutor Cheat, , 0, 0
-Sleep, 4500
-SplashTextOff
-SplashTextOn, 300, 200, Typing Tutor Cheat, CLOSE KIRAN'S TYPING TUTOR BEFORE IT BECAUSE THIS WILL REOPEN IT AND SET IT UP
-WinMove, Typing Tutor Cheat, , 0, 0
-Sleep, 4500
-SplashTextOff
-SplashTextOn, 300, 150, Typing Tutor Cheat, You Need to have it in FULL SCREEN! IF not it will work
-WinMove, Typing Tutor Cheat, , 0, 0
-Sleep, 4500
-SplashTextOff
-SplashTextOn, 300, 160, Typing Tutor Cheat, There are hot keys that need to be pressed for this to work. PLEASE READ ALL
-WinMove, Typing Tutor Cheat, , 0, 0
-Sleep, 4500
-SplashTextOff
-SplashTextOn, 350, 200, Typing Tutor Cheat, START! To start the code you need to press ALT+J THESE KEYS BOTH NEED TO BE PRESSED AT THE SAME TIME
-WinMove, Typing Tutor Cheat, , 0, 0
-Sleep, 6500
-SplashTextOff
-SplashTextOn, 350, 100, Typing Tutor Cheat, This command will do the TYPING LESSONS 5 times!
-WinMove, Typing Tutor Cheat, , 0, 0
-Sleep, 4500
-SplashTextOff
-SplashTextOn, 350, 150, Typing Tutor Cheat, EXIT! ALT+K will close the Program causing it to stop. So use this as a stop thing.
-WinMove, Typing Tutor Cheat, , 0, 0
-Sleep, 4500
-SplashTextOff
-SplashTextOn, 350, 150, Typing Tutor Cheat, EXIT! ALT+R will Basicly do the same thing but not close it. (RELOAD KEY)
-WinMove, Typing Tutor Cheat, , 0, 0
-Sleep, 4500
-SplashTextOff
-SplashTextOn, 350, 150, Typing Tutor Cheat, INFINITE! ALT+L will do the cheat FOREVER or untill stoped.
-WinMove, Typing Tutor Cheat, , 0, 0
-Sleep, 4500
-SplashTextOff
-SplashTextOn, 350, 150, Typing Tutor Cheat, To REOPEN this help do ALT+H.
-WinMove, Typing Tutor Cheat, , 0, 0
-Sleep, 4500
-SplashTextOff
-SplashTextOn, 350, 150, Typing Tutor Cheat, Message me on Seqta For MORE help or to get the latest version.
-WinMove, Typing Tutor Cheat, , 0, 0
-Sleep, 4500
-SplashTextOff
-SplashTextOn, 350, 150, MADE BY JACOB Bray 8E1
-WinMove, Typing Tutor Cheat, , 0, 0
-Sleep, 1500
-SplashTextOff
-
-;edit this bitch made by jacob
-
 #r::
 Goto, Reload
 Return
@@ -62,23 +10,11 @@ Return
 Goto, Cheat
 Return
 
-#h::
-Goto, help
-
 #Home::
 Suspend, Toggle
 Return
 
-#l::
-Goto, INFCheat
-Return
-
 #k::
-ExitApp
-Return
-
-Cheat:
-Loop, 5
 {
         MsgBox, 4, EXIT, Do you want to exit?
         IfMsgBox, Yes
@@ -103,7 +39,7 @@ Loop, 5
 }
 Return
 
-INFCheat:
+Cheat:
 Loop, 5
 {
         Sleep, 100
