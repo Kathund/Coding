@@ -32,6 +32,7 @@ Return
                 Sleep, 1000
                 SplashTextOff
                 ExitApp
+                Return
         }
         IfMsgBox, No
                 Return
