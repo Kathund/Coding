@@ -180,7 +180,7 @@ Return
 
 GithubDesk:
 Gui 18: Destroy
-Run, C:\Users\crbra\OneDrive\Desktop\GitHubDesktop.exe - Shortcut.lnk
+Run, C:\Users\crbra\OneDrive\Desktop\GitHubDesktop.lnk
 Return
 
 Github:
