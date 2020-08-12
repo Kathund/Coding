@@ -1,4 +1,3 @@
-
 SplashTextOn, 300, 150, Typing Tutor Cheat, Please Read all of this to use this without any problems.
 WinMove, Typing Tutor Cheat, , 0, 0
 Sleep, 4500
@@ -76,6 +75,7 @@ Goto, help
 #Home::
 Suspend, Toggle
 Return
+
 
 #l::
 Goto, INFCheat
