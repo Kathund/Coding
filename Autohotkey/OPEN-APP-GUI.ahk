@@ -9,6 +9,7 @@ Gui 7: Destroy
 Gui 13: Destroy
 Gui 15: Destroy
 Gui 17: Destroy
+Gui 18: Destroy
 Gui, Add, DateTime, x150 y40 vMyDateTime, Time
 Gui, Add, Button, w75 h20 x0 y0 gTimetable, Timetable
 Gui, Add, Button, Default cRed w75 H20 x0 y20 gEnglish, English
@@ -124,6 +125,7 @@ Return
 
 Open: 
 Run, C:\Users\crbra\OneDrive\Pictures\Screenshots
+Return
 
 Exit:
 ExitApp
@@ -168,7 +170,22 @@ Return
 
 Edit:
 Gui 1: Destroy
-Run, C:\Users\crbra\OneDrive\Desktop\Not School\coding\Visual Studio code\Workspace\OPEN app workspace.code-workspace
+Gui 18: Default
+Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
+Gui, Add, Button, Default w50 h20 x50 y0 gOther, GO BACK!
+Gui, Add, Button, Default w100 h20 x0 y20 gGithub, Github Page
+Gui, Add, Button, Default w100 h20 x0 y40 gGitHubDesk, Github Desktop
+Gui, Show, w100 h60 Center, Vol
+Return
+
+GithubDesk:
+Gui 18: Destroy
+Run, C:\Users\crbra\OneDrive\Desktop\GitHubDesktop.exe - Shortcut.lnk
+Return
+
+Github:
+Gui 18: Destroy
+Run, https://github.com/Kathund/Coding
 Return
 
 Timetable:
@@ -189,6 +206,7 @@ Gui 14: Destroy
 Gui 15: Destroy
 Gui 16: Destroy
 Gui 17: Destroy
+Gui 18: Destroy
 Gui, Add, Button, Default w75 h20 x0 y0 gGUI, GO BACK
 Gui, Add, Button, Default w75 h20 x0 y20 gMonday, Monday
 Gui, Add, Button, Default w75 h20 x0 y40 gTuesday, Tuesday
