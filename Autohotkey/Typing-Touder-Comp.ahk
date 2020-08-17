@@ -1,19 +1,19 @@
 MsgBox, 4, Typing Tutor Cheat, Have You Read the Manual on how to use this?
 IfMsgBox, Yes
 {
-        ;Send, {LWin}
-        ;Sleep, 50
-        ;Send, kiran's Typing Tutor
-        ;Sleep, 50
-       ; Send, {Enter}
-      ;  Sleep, 3000
-     ;   MouseClick, Left, 1325, 363, 1, 0
-    ;    Sleep, 150
-   ;     Send, Kiran's Typing Tutor
-  ;      Sleep, 150
- ;       MouseClick, 657, 464, 1, 0
+        Send, {LWin}
+        Sleep, 50
+        Send, kiran's Typing Tutor
+        Sleep, 50
+        Send, {Enter}
+        Sleep, 3000
+        MouseClick, Left, 1325, 363, 1, 0
+        Sleep, 150
+        Send, Kiran's Typing Tutor
+        Sleep, 150
+        MouseClick, 657, 464, 1, 0
 ;        657, 454
-;        WinMaximize, Kiran's Typing Tutor
+        WinMaximize, Kiran's Typing Tutor
         Return
 }
 IfMsgBox, No
