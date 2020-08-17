@@ -175,7 +175,13 @@ Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
 Gui, Add, Button, Default w50 h20 x50 y0 gOther, GO BACK!
 Gui, Add, Button, Default w100 h20 x0 y20 gGithub, Github Page
 Gui, Add, Button, Default w100 h20 x0 y40 gGitHubDesk, Github Desktop
-Gui, Show, w100 h60 Center, Vol
+Gui, Add, Button, Default w100 h20 x0 y60 gCheatSite, Google docs Cheat
+Gui, Show, w100 h80 Center, GAY
+Return
+
+CheatSite:
+Gui 18: Destroy
+Run, https://docs.google.com/document/d/1BQK1xU3oAcuck8WTieX3lWCiu_x9hUnS70gwvdyaJPE/edit?usp=sharing
 Return
 
 GithubDesk:
