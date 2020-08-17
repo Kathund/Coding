@@ -1,6 +1,7 @@
 MsgBox, 4, Typing Tutor Cheat, Have You Read the Manual on how to use this?
 IfMsgBox, Yes
 {
+        MsgBox, if you have Kiran's Typing Tutor open PLEASE close it then click Ok
         Send, {LWin}
         Sleep, 50
         Send, kiran's Typing Tutor
@@ -11,8 +12,7 @@ IfMsgBox, Yes
         Sleep, 150
         Send, Kiran's Typing Tutor
         Sleep, 150
-        MouseClick, 657, 464, 1, 0
-;        657, 454
+        MouseClick, left, 657, 464, 1, 0
         WinMaximize, Kiran's Typing Tutor
         Return
 }
@@ -21,6 +21,7 @@ IfMsgBox, No
         Run, https://docs.google.com/document/d/1BQK1xU3oAcuck8WTieX3lWCiu_x9hUnS70gwvdyaJPE/edit?usp=sharing
         Return
 }
+Return
 
 #r::
 Goto, Reload
