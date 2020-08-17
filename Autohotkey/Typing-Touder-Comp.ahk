@@ -1,19 +1,19 @@
 MsgBox, 4, Typing Tutor Cheat, Have You Read the Manual on how to use this?
 IfMsgBox, Yes
 {
-        Send, {LWin}
-        Sleep, 50
-        Send, kiran's Typing Tutor
-        Sleep, 50
-        Send, {Enter}
-        Sleep, 3000
-        MouseClick, Left, 1325, 363, 1, 0
-        Sleep, 150
-        Send, Kiran's Typing Tutor
-        Sleep, 150
-        MouseClick, 657, 464, 1, 0
-        657, 454
-        WinMaximize, Kiran's Typing Tutor
+        ;Send, {LWin}
+        ;Sleep, 50
+        ;Send, kiran's Typing Tutor
+        ;Sleep, 50
+       ; Send, {Enter}
+      ;  Sleep, 3000
+     ;   MouseClick, Left, 1325, 363, 1, 0
+    ;    Sleep, 150
+   ;     Send, Kiran's Typing Tutor
+  ;      Sleep, 150
+ ;       MouseClick, 657, 464, 1, 0
+;        657, 454
+;        WinMaximize, Kiran's Typing Tutor
         Return
 }
 IfMsgBox, No
@@ -34,8 +34,13 @@ Return
 Goto, Cheat
 Return
 
+#p::
+Goto, NUMCheat
+Return
+
 #h::
 Goto, help
+Return
 
 #Home::
 Suspend, Toggle
@@ -51,8 +56,6 @@ ExitApp
 Return
 
 Cheat:
-Loop
-{
         Sleep, 100
         MouseClick, Left, 1062, 1250, 1, 0
         Sleep, 300
@@ -132,7 +135,7 @@ Loop
         Sleep, 300
         Send, {Enter}
         Sleep, 800
-}
+
 Return
 
 INFCheat:
