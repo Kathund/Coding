@@ -10,7 +10,7 @@ IfMsgBox, Yes
         Sleep, 3000
         MouseClick, Left, 1325, 363, 1, 0
         Sleep, 150
-        Send, Kiran's Typing Tutor
+        Send, Kiran's Typing Tutor Cheat
         Sleep, 150
         MouseClick, left, 657, 464, 1, 0
         WinMaximize, Kiran's Typing Tutor
@@ -23,7 +23,7 @@ IfMsgBox, No
 }
 Return
 
-#r::
+!r::
 Goto, Reload
 Return
 
@@ -31,28 +31,28 @@ Reload:
 Reload
 Return
 
-#j::
+!j::
 Goto, Cheat
 Return
 
-#p::
+!p::
 Goto, NUMCheat
 Return
 
-#h::
+!h::
 Goto, help
 Return
 
-#Home::
+!Home::
 Suspend, Toggle
 Return
 
 
-#l::
+!l::
 Goto, INFCheat
 Return
 
-#k::
+!k::
 ExitApp
 Return
 
