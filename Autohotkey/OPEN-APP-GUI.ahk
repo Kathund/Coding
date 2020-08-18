@@ -10,6 +10,7 @@ Gui 13: Destroy
 Gui 15: Destroy
 Gui 17: Destroy
 Gui 18: Destroy
+Gui 19: Destroy
 Gui, Add, DateTime, x150 y40 vMyDateTime, Time
 Gui, Add, Button, w75 h20 x0 y0 gTimetable, Timetable
 Gui, Add, Button, Default cRed w75 H20 x0 y20 gEnglish, English
@@ -20,9 +21,49 @@ Gui, Add, Button, Default w75 h20 x150 y20 gScreenshot, Screenshot
 Gui, Add, Button, Default w75 h20 x75 y60 gReload, Reload
 Gui, Add, Button, Default w75 h20 x0 y60  gReload, Update Time
 Gui, Add, Button, Default w75 h20 x150 y60 gHumanities, Humanities
-Gui, Add, Button, Default w75 h20 x0 y40, Not Set
+Gui, Add, Button, Default w75 h20 x0 y40 gComputing, Computing
 Gui, Add, Button, Default w75 h20 x75 y40 gOther, Other
 Gui, Show, w225 h80 Center, Open App
+Return
+
+Computing:
+Gui 1: Destroy
+Gui 19: Default
+Gui 20: Destroy
+Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
+Gui, Add, Button, Default w50 h20 x50 y0 gGUI, GO BACK!
+Gui, Add, Button, Default w100 h20 x0 y20 gRobot, Robot
+Gui, Show, w100 h40
+Return
+
+Robot:
+Gui 19: Destroy
+Gui 20: Default
+Gui 21: Destroy
+Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
+Gui, Add, Button, Default w50 h20 x50 y0 gComputing, GO BACK!
+Gui, Add, Button, Default w100 h20 x0 y20 gARC, ARC
+Gui, Add, Button, Default w100 h20 x0 y40 gWorkspace, Workspace
+Gui, Show, w100 h60
+Return
+
+ARC:
+Gui 20: Destroy
+Run, C:\Program Files (x86)\Synthiam Inc\ARC by Synthiam\ARC.exe
+Return
+
+Workspace:
+Gui 20: Destroy
+Gui 21: Default
+Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
+Gui, Add, Button, Default w50 h20 x50 y0 gRobot, GO BACK!
+Gui, Add, Button, Default w100 h20 x0 y20 gCurrentJD, Current JD
+Gui, Show, w100 h40
+Return
+
+CurrentJD:
+Gui 21: Destroy
+Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\computer\Robot\Current.EZB
 Return
 
 Other:
@@ -213,6 +254,9 @@ Gui 15: Destroy
 Gui 16: Destroy
 Gui 17: Destroy
 Gui 18: Destroy
+Gui 19: Destroy
+Gui 20: Destroy
+Gui 21: Destroy
 Gui, Add, Button, Default w75 h20 x0 y0 gGUI, GO BACK
 Gui, Add, Button, Default w75 h20 x0 y20 gMonday, Monday
 Gui, Add, Button, Default w75 h20 x0 y40 gTuesday, Tuesday
