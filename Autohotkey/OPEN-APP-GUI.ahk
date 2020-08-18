@@ -95,10 +95,10 @@ Gui, Add, Button, Default w120 h20 x0 y20 gXnnY, X and Y Mouse Cords
 Gui, Show, w120 h40 Center, Scripts
 Return
 
-XnnY:
-Gui 16: Destroy
-Run, C:\Users\crbra\OneDrive\Desktop\Not School\GIthub\Coding\Autohotkey\x and y.ahk
-Return
+;XnnY:
+;Gui 16: Destroy
+;Run, C:\Users\crbra\OneDrive\Desktop\Not School\GIthub\Coding\Autohotkey\x and y.ahk
+;Return
 
 Soundboard:
 Gui 15: Destroy
