@@ -479,9 +479,9 @@ English:
 Reload
 Return
 
-!r::
-Goto, Reload
-Return
+;!r::
+;Goto, Reload
+;Return
 
 Reload:
 Reload
