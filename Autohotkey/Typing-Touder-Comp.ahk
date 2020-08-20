@@ -1,3 +1,5 @@
+#SingleInstance, force
+
 MsgBox, 4, Typing Tutor Cheat, Have You Read the Manual on how to use this?
 IfMsgBox, Yes
 {
@@ -7,11 +9,11 @@ IfMsgBox, Yes
         Send, kiran's Typing Tutor
         Sleep, 50
         Send, {Enter}
-        Sleep, 3000
-        MouseClick, Left, 1325, 363, 1, 0
-        Sleep, 150
+        Sleep, 10000
+        MouseClick, Left, 1241, 366, 1, 0
+        Sleep, 1500
         Send, Kiran's Typing Tutor Cheat
-        Sleep, 150
+        Sleep, 1500
         MouseClick, left, 657, 464, 1, 0
         Return
 }
