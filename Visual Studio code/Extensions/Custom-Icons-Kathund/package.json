@@ -6,33 +6,26 @@
 	"publisher": "vscode-icons-team",
 	"license": "MIT",
 	"author": {
-		"email": "roberto.huertas@outlook.com",
-		"name": "Roberto Huertas",
+		"name": "Kathund",
 		"url": "https://robertohuertas.com"
 	},
 	"maintainers": [
 		{
-			"email": "jimikar@gmail.com",
-			"name": "Jimi (Dimitris) Charalampidis"
+		
 		},
 		{
-			"email": "jenshausdorf@gmail.com",
-			"name": "Jens Hausdorf",
-			"url": "https://jens-hausdorf.de"
+
 		},
 		{
-			"email": "stevenbojato04@gmail.com",
-			"name": "Manuel Bojato",
-			"url": "https://kingdarboja.github.io/"
+
 		}
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/vscode-icons/vscode-icons"
+		"url": "https://github.com/Kathund/Coding"
 	},
 	"bugs": {
-		"url": "https://github.com/vscode-icons/vscode-icons/issues",
-		"email": "roberto.huertas@outlook.com"
+		"url": "https://github.com/Kathund/Coding/issues",
 	},
 	"engines": {
 		"vscode": "^1.31.1",
@@ -49,7 +42,7 @@
 		"portable mode ready"
 	],
 	"preview": false,
-	"homepage": "https://github.com/vscode-icons/vscode-icons",
+	"homepage": "",
 	"icon": "images/logo.png",
 	"galleryBanner": {
 		"color": "#ffdd00"
