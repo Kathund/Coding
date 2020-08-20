@@ -40,7 +40,7 @@ Return
 Return
 
 Cheat:
-Loop, 5
+Loop, 
 {
         Sleep, 100
         MouseClick, Left, 1062, 1250, 1, 0
