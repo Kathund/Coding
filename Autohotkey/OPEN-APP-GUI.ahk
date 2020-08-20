@@ -95,10 +95,10 @@ Gui, Add, Button, Default w120 h20 x0 y20 gXnnY, X and Y Mouse Cords
 Gui, Show, w120 h40 Center, Scripts
 Return
 
-;XnnY:
-;Gui 16: Destroy
-;Run, C:\Users\crbra\OneDrive\Desktop\Not School\GIthub\Coding\Autohotkey\x and y.ahk
-;Return
+XnnY:
+Gui 16: Destroy
+Run, C:\Users\crbra\OneDrive\Desktop\Not School\GIthub\Coding\Autohotkey\x and y.ahk
+Return
 
 Soundboard:
 Gui 15: Destroy
@@ -118,7 +118,7 @@ Gui, Add, Button, Default w100 h20 x100 y60 gGay, I'm gay
 ; RIGHT COLLOM BELOW
 Gui, Add, Button, Default w100 h20 x200 y0 gOther, GO BACK!
 Gui, Add, Button, Default w100 h20 x200 y20 gAirhorn, Air Horn
-Gui, Add, Button, Default w100 h20 x200 y40, NOT SET
+Gui, Add, Button, Default w100 h20 x200 y40 gBabyShark, Baby shark
 Gui, Add, Button, Default w100 h20 x200 y60, NOT SET
 ; RIGHT COLLOM ABOVE
 Gui, Show, w300 h80 Center, TrASH
@@ -126,6 +126,10 @@ Return
 
 StopSound:
 SoundPlay, egegtgtg.mp333
+Return
+
+BabyShark:
+SoundPlay, C:\Users\crbra\OneDrive\Desktop\Not School\GIthub\Coding\Soundboard\Baby shark.mp3
 Return
 
 Gay:
@@ -479,9 +483,9 @@ English:
 Reload
 Return
 
-;!r::
-;Goto, Reload
-;Return
+!r::
+Goto, Reload
+Return
 
 Reload:
 Reload
@@ -529,3 +533,16 @@ Return
         IfMsgBox, No
                 Return
 }
+Return
+
+!o::
+Loop, 40
+{
+        MouseClick, Left, 1370, 480, 1, 0,
+        Sleep, 250
+        MouseClick, Left, 2634, 398, 1, 0,
+        Sleep, 250
+        MouseClick, Left, 2606, 606, 1, 0,
+        Sleep, 1500
+}
+Return
