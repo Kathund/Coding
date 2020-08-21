@@ -78,8 +78,8 @@ Gui 16: Destroy
 Gui 6: Destroy
 Gui 13: Destroy
 Gui 15: Default
-Gui, Add, Button, W50 H20 x0 y0 gTimetable, Timetable
-Gui, Add, Button, Default w50 H20 x50 y0 gGUI, GO BACK!
+Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
+Gui, Add, Button, Default w50 h20 x50 y0 gGUI, GO BACK!
 Gui, Add, Button, Default w100 h20 x0 y20 gSoundboard, Soundboard
 Gui, Add, Button, Default w100 h20 x0 y40 gScripts, Scrpits
 Gui, Add, Button, Default w100 h20 x0 y60 gVol, Vol
