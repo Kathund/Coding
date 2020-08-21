@@ -162,6 +162,19 @@ Airhorn:
 SoundPlay, C:\Users\crbra\OneDrive\Desktop\Not School\Github\Coding\Soundboard\AIRHORN.mp3
 Return
 
+TerriaSound:
+Gui 13: Destroy
+Gui 22: Default
+Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
+Gui, Add, Button, Default w50 h20 x50 y0 gGUI, GO BACK!
+Gui, Add, Button, Default w100 h20 x0 y20 gOverworldDAY, Overworld day
+GUI Show, w100 h40
+Return
+
+OverworldDAY:
+SoundPlay, C:\Users\crbra\OneDrive\Desktop\Not School\GIthub\Coding\Soundboard\Terria\Overworld-day.mp3
+Return
+
 Screenshot:
 Gui 1: Destroy
 Sleep, 200
