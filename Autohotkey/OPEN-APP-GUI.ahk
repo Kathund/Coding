@@ -125,7 +125,7 @@ Gui, Add, Button, Default w100 h20 x100 y60 gGay, I'm gay
 Gui, Add, Button, Default w100 h20 x200 y0 gOther, GO BACK!
 Gui, Add, Button, Default w100 h20 x200 y20 gAirhorn, Air Horn
 Gui, Add, Button, Default w100 h20 x200 y40 gBabyShark, Baby shark
-Gui, Add, Button, Default w100 h20 x200 y60, NOT SET
+Gui, Add, Button, Default w100 h20 x200 y60 gTerriaSound, Terria
 ; RIGHT COLLOM ABOVE
 Gui, Show, w300 h80 Center, TrASH
 Return
