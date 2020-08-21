@@ -58,12 +58,18 @@ Gui 21: Default
 Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
 Gui, Add, Button, Default w50 h20 x50 y0 gRobot, GO BACK!
 Gui, Add, Button, Default w100 h20 x0 y20 gCurrentJD, Current JD
-Gui, Show, w100 h40
+Gui, Add, Button, Default w100 h20 x0 y40 gCurrentSix, Current Six
+Gui, Show, w100 h60
+Return
+
+CurrentSix:
+Gui 21: Destroy
+Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\computer\Robot\six\CUrrent.EZB
 Return
 
 CurrentJD:
 Gui 21: Destroy
-Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\computer\Robot\Current.EZB
+Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\computer\Robot\JD\Current.EZB
 Return
 
 Other:
