@@ -203,7 +203,8 @@ Gui, Add, Button, Default w50 h20 x50 y0 gOther, GO BACK!
 Gui, Add, Button, Default w100 h20 x0 y20 gVolUP, Vol Up
 Gui, Add, Button, Default w100 h20 x0 y40 gVolDOWN, Vol Down
 Gui, Add, Button, Default w100 h20 x0 y60 gVol0, Vol Set 0
-Gui, Show, w100 h80 Center, Vol
+Gui, Add, Button, Default w100 h20 x0 y80 gVol100, Vol Set 100
+Gui, Show, w100 h100 Center, Vol
 Return
 
 VolUP:
@@ -212,6 +213,10 @@ Return
 
 Vol0:
 SoundSet, 0
+Return
+
+Vol100:
+SoundSet, 100
 Return
 
 VolDOWN:
