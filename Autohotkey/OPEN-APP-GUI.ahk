@@ -1,6 +1,5 @@
 Menu, TRAY, Icon, C:\Users\crbra\OneDrive\Desktop\Not School\Github\Coding\ICONS\open-app.ico
 
-::idk::i don't know
 
 GUI:
 Gui 1: Default
@@ -10,6 +9,8 @@ Gui 7: Destroy
 Gui 13: Destroy
 Gui 15: Destroy
 Gui 17: Destroy
+Gui 18: Destroy
+Gui 19: Destroy
 Gui, Add, DateTime, x150 y40 vMyDateTime, Time
 Gui, Add, Button, w75 h20 x0 y0 gTimetable, Timetable
 Gui, Add, Button, Default cRed w75 H20 x0 y20 gEnglish, English
@@ -20,9 +21,55 @@ Gui, Add, Button, Default w75 h20 x150 y20 gScreenshot, Screenshot
 Gui, Add, Button, Default w75 h20 x75 y60 gReload, Reload
 Gui, Add, Button, Default w75 h20 x0 y60  gReload, Update Time
 Gui, Add, Button, Default w75 h20 x150 y60 gHumanities, Humanities
-Gui, Add, Button, Default w75 h20 x0 y40, Not Set
+Gui, Add, Button, Default w75 h20 x0 y40 gComputing, Computing
 Gui, Add, Button, Default w75 h20 x75 y40 gOther, Other
 Gui, Show, w225 h80 Center, Open App
+Return
+
+Computing:
+Gui 1: Destroy
+Gui 19: Default
+Gui 20: Destroy
+Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
+Gui, Add, Button, Default w50 h20 x50 y0 gGUI, GO BACK!
+Gui, Add, Button, Default w100 h20 x0 y20 gRobot, Robot
+Gui, Show, w100 h40
+Return
+
+Robot:
+Gui 19: Destroy
+Gui 20: Default
+Gui 21: Destroy
+Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
+Gui, Add, Button, Default w50 h20 x50 y0 gComputing, GO BACK!
+Gui, Add, Button, Default w100 h20 x0 y20 gARC, ARC
+Gui, Add, Button, Default w100 h20 x0 y40 gWorkspace, Workspace
+Gui, Show, w100 h60
+Return
+
+ARC:
+Gui 20: Destroy
+Run, C:\Program Files (x86)\Synthiam Inc\ARC by Synthiam\ARC.exe
+Return
+
+Workspace:
+Gui 20: Destroy
+Gui 21: Default
+Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
+Gui, Add, Button, Default w50 h20 x50 y0 gRobot, GO BACK!
+Gui, Add, Button, Default w100 h20 x0 y20 gCurrentJD, Current JD
+Gui, Add, Button, Default w100 h20 x0 y40 gCurrentSix, Current Six
+Gui, Show, w100 h60
+Return
+
+CurrentSix:
+Gui 21: Destroy
+Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\computer\Robot\six\CUrrent.EZB
+Return
+
+CurrentJD:
+Gui 21: Destroy
+Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\computer\Robot\JD\Current.EZB
 Return
 
 Other:
@@ -31,8 +78,8 @@ Gui 16: Destroy
 Gui 6: Destroy
 Gui 13: Destroy
 Gui 15: Default
-Gui, Add, Button, W50 H20 x0 y0 gTimetable, Timetable
-Gui, Add, Button, Default w50 H20 x50 y0 gGUI, GO BACK!
+Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
+Gui, Add, Button, Default w50 h20 x50 y0 gGUI, GO BACK!
 Gui, Add, Button, Default w100 h20 x0 y20 gSoundboard, Soundboard
 Gui, Add, Button, Default w100 h20 x0 y40 gScripts, Scrpits
 Gui, Add, Button, Default w100 h20 x0 y60 gVol, Vol
@@ -61,6 +108,7 @@ Return
 
 Soundboard:
 Gui 15: Destroy
+Gui 22: Destroy
 Gui 13: Default
 ; LEFT COLLOM BELOW
 Gui, Add, Button, w100 h20 x0 y0 gTimetable, Timetable
@@ -77,14 +125,18 @@ Gui, Add, Button, Default w100 h20 x100 y60 gGay, I'm gay
 ; RIGHT COLLOM BELOW
 Gui, Add, Button, Default w100 h20 x200 y0 gOther, GO BACK!
 Gui, Add, Button, Default w100 h20 x200 y20 gAirhorn, Air Horn
-Gui, Add, Button, Default w100 h20 x200 y40, NOT SET
-Gui, Add, Button, Default w100 h20 x200 y60, NOT SET
+Gui, Add, Button, Default w100 h20 x200 y40 gBabyShark, Baby shark
+Gui, Add, Button, Default w100 h20 x200 y60 gTerriaSound, Terria
 ; RIGHT COLLOM ABOVE
 Gui, Show, w300 h80 Center, TrASH
 Return
 
 StopSound:
 SoundPlay, egegtgtg.mp333
+Return
+
+BabyShark:
+SoundPlay, C:\Users\crbra\OneDrive\Desktop\Not School\GIthub\Coding\Soundboard\Baby shark.mp3
 Return
 
 Gay:
@@ -111,6 +163,20 @@ Airhorn:
 SoundPlay, C:\Users\crbra\OneDrive\Desktop\Not School\Github\Coding\Soundboard\AIRHORN.mp3
 Return
 
+TerriaSound:
+Gui 13: Destroy
+Gui 22: Default
+Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
+Gui, Add, Button, Default w50 h20 x50 y0 gSoundboard, GO BACK!
+Gui, Add, Button, Default w100 h20 x0 y20 gStopSound, STOP SOUND
+Gui, Add, Button, Default w100 h20 x0 y40 gOverworldDAY, Overworld day
+GUI Show, w100 h60
+Return
+
+OverworldDAY:
+SoundPlay, C:\Users\crbra\OneDrive\Desktop\Not School\GIthub\Coding\Soundboard\Terria\Overworld-day.mp3
+Return
+
 Screenshot:
 Gui 1: Destroy
 Sleep, 200
@@ -124,7 +190,9 @@ Gui, Show, w100 h40 Center, Screenshot
 Return
 
 Open: 
+WinMaximize, Screenshots
 Run, C:\Users\crbra\OneDrive\Pictures\Screenshots
+Return
 
 Exit:
 ExitApp
@@ -151,7 +219,8 @@ Gui, Add, Button, Default w50 h20 x50 y0 gOther, GO BACK!
 Gui, Add, Button, Default w100 h20 x0 y20 gVolUP, Vol Up
 Gui, Add, Button, Default w100 h20 x0 y40 gVolDOWN, Vol Down
 Gui, Add, Button, Default w100 h20 x0 y60 gVol0, Vol Set 0
-Gui, Show, w100 h80 Center, Vol
+Gui, Add, Button, Default w100 h20 x0 y80 gVol100, Vol Set 100
+Gui, Show, w100 h100 Center, Vol
 Return
 
 VolUP:
@@ -162,6 +231,10 @@ Vol0:
 SoundSet, 0
 Return
 
+Vol100:
+SoundSet, 100
+Return
+
 VolDOWN:
 SoundSet -2
 Return
@@ -169,7 +242,28 @@ Return
 
 Edit:
 Gui 1: Destroy
-Run, C:\Users\crbra\OneDrive\Desktop\Not School\coding\Visual Studio code\Workspace\OPEN app workspace.code-workspace
+Gui 18: Default
+Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
+Gui, Add, Button, Default w50 h20 x50 y0 gOther, GO BACK!
+Gui, Add, Button, Default w100 h20 x0 y20 gGithub, Github Page
+Gui, Add, Button, Default w100 h20 x0 y40 gGitHubDesk, Github Desktop
+Gui, Add, Button, Default w100 h20 x0 y60 gCheatSite, Google docs Cheat
+Gui, Show, w100 h80 Center, GAY
+Return
+
+CheatSite:
+Gui 18: Destroy
+Run, https://docs.google.com/document/d/1BQK1xU3oAcuck8WTieX3lWCiu_x9hUnS70gwvdyaJPE/edit?usp=sharing
+Return
+
+GithubDesk:
+Gui 18: Destroy
+Run, C:\Users\crbra\OneDrive\Desktop\GitHubDesktop.lnk
+Return
+
+Github:
+Gui 18: Destroy
+Run, https://github.com/Kathund/Coding
 Return
 
 Timetable:
@@ -190,6 +284,11 @@ Gui 14: Destroy
 Gui 15: Destroy
 Gui 16: Destroy
 Gui 17: Destroy
+Gui 18: Destroy
+Gui 19: Destroy
+Gui 20: Destroy
+Gui 21: Destroy
+Gui 22: Destroy
 Gui, Add, Button, Default w75 h20 x0 y0 gGUI, GO BACK
 Gui, Add, Button, Default w75 h20 x0 y20 gMonday, Monday
 Gui, Add, Button, Default w75 h20 x0 y40 gTuesday, Tuesday
@@ -420,6 +519,10 @@ Reload:
 Reload
 Return
 
+!#Escape::
+Run, C:\ProgramData\Microsoft\Windows\Start Menu\Programs\System Tools\Task Manager.lnk
+Return
+
 #Up::
 Goto, VolUP
 Return
@@ -443,7 +546,7 @@ Return
         {
                 SplashTextOn, 300, 50, Closing in..., 3
                 WinMove, Closing in..., , 0, 0
-                Sleep, 10009
+                Sleep, 1000
                 SplashTextOff
                 SplashTextOn, 300, 50, Closing in..., 2
                 WinMove, Closing in..., , 0, 0
@@ -458,3 +561,16 @@ Return
         IfMsgBox, No
                 Return
 }
+Return
+
+!o::
+Loop, 40
+{
+        MouseClick, Left, 1370, 480, 1, 0,
+        Sleep, 250
+        MouseClick, Left, 2634, 398, 1, 0,
+        Sleep, 250
+        MouseClick, Left, 2606, 606, 1, 0,
+        Sleep, 1500
+}
+Return
