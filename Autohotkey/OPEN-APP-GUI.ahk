@@ -70,7 +70,7 @@ Return
 CurrentJD:
 Gui 21: Destroy
 Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\computer\Robot\JD\Current.EZB
-Returnz
+Return
 
 Other:
 Gui 1: Destroy
@@ -265,6 +265,7 @@ CheatSite:
 Gui 18: Destroy
 Run, C:\Users\crbra\OneDrive\Desktop\GitHubDesktop.lnk
 Sleep, 3250
+;MouseClick, left, , Y, ClickCount, Speed, D|U, R]
 Return
 
 GithubDesk:
