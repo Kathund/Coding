@@ -257,15 +257,15 @@ Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
 Gui, Add, Button, Default w50 h20 x50 y0 gOther, GO BACK!
 Gui, Add, Button, Default w100 h20 x0 y20 gGithub, Github Page
 Gui, Add, Button, Default w100 h20 x0 y40 gGitHubDesk, Github Desktop
-Gui, Add, Button, Default w100 h20 x0 y60, 
+Gui, Add, Button, Default w100 h20 x0 y60 gVSCode, VS code
 Gui, Show, w100 h80 Center, GAY
 Return
 
-CheatSite:
+VSCode:
 Gui 18: Destroy
 Run, C:\Users\crbra\OneDrive\Desktop\GitHubDesktop.lnk
 Sleep, 3250
-;MouseClick, left, , Y, ClickCount, Speed, D|U, R]
+Send, ^+a
 Return
 
 GithubDesk:
