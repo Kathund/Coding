@@ -1,0 +1,9 @@
+AutoHotKey by sleveque
+Color Highlight by Sergii Naumov
+Docker by MIcrosoft
+GitHub by KnisterPeter
+GitHub Pull Requests And Issues by GitHub
+GitHub Theme by Github
+Gitlens by Eric Amodio
+Rainbow Brackets by 2gua
+Vscode-icons by VScode Icons Team
