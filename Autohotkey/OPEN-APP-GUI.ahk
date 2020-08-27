@@ -264,7 +264,7 @@ Return
 VSCode:
 Gui 18: Destroy
 Run, C:\Users\crbra\OneDrive\Desktop\GitHubDesktop.lnk
-Sleep, 3250
+Sleep, 3750
 Send, ^+a
 Return
 
