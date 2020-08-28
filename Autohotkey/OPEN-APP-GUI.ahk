@@ -575,6 +575,12 @@ Return
 }
 Return
 
+!p::
+FormatTime, CurrDATE, DDMMYYYY
+Sleep, 250
+Send, %CurrDATE%
+Return
+
 !o::
 Loop, 40
 {
