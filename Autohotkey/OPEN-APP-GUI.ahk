@@ -84,7 +84,13 @@ Gui, Add, Button, Default w100 h20 x0 y20 gSoundboard, Soundboard
 Gui, Add, Button, Default w100 h20 x0 y40 gScripts, Scrpits
 Gui, Add, Button, Default w100 h20 x0 y60 gVol, Vol
 Gui, Add, Button, Default w100 h20 x0 y80 gBIn, Empty Bin
-Gui, Show, w100 h100 Center, Other
+Gui, Add, Button, Default w100 h20 x0 y100 gTimer, Daily Timer
+Gui, Show, w100 h120 Center, Other
+Return
+
+Timer:
+Gui 15: Destroy
+Run, https://ict.kennedy.wa.edu.au/timers/Kennedy-periods-timer.html
 Return
 
 Bin:
@@ -185,13 +191,17 @@ Sleep, 500
 Gui 17: Default
 Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
 Gui, Add, Button, Default w50 h20 x50 y0 gGUI, GO BACK!
-Gui, Add, Button, Default w100 h20 x0 y20, Open Photo
+Gui, Add, Button, Default w100 h20 x0 y20 gOpen, Open Photo
 Gui, Show, w100 h40 Center, Screenshot
 Return
 
 Open: 
-WinMaximize, Screenshots
+Gui 17: Destroy
 Run, C:\Users\crbra\OneDrive\Pictures\Screenshots
+Sleep, 1750
+WinMaximize, Screenshots
+Sleep, 750
+MouseClick, Left, 500, 350, 2, 0,
 Return
 
 Exit:
@@ -247,13 +257,15 @@ Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
 Gui, Add, Button, Default w50 h20 x50 y0 gOther, GO BACK!
 Gui, Add, Button, Default w100 h20 x0 y20 gGithub, Github Page
 Gui, Add, Button, Default w100 h20 x0 y40 gGitHubDesk, Github Desktop
-Gui, Add, Button, Default w100 h20 x0 y60 gCheatSite, Google docs Cheat
+Gui, Add, Button, Default w100 h20 x0 y60 gVSCode, VS code
 Gui, Show, w100 h80 Center, GAY
 Return
 
-CheatSite:
+VSCode:
 Gui 18: Destroy
-Run, https://docs.google.com/document/d/1BQK1xU3oAcuck8WTieX3lWCiu_x9hUnS70gwvdyaJPE/edit?usp=sharing
+Run, C:\Users\crbra\OneDrive\Desktop\GitHubDesktop.lnk
+Sleep, 3750
+Send, ^+a
 Return
 
 GithubDesk:
@@ -561,6 +573,12 @@ Return
         IfMsgBox, No
                 Return
 }
+Return
+
+!p::
+FormatTime, CurrDATE, DDMMYYYY
+Sleep, 250
+Send, %CurrDATE%
 Return
 
 !o::
