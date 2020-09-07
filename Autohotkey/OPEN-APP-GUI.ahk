@@ -575,10 +575,10 @@ Return
 }
 Return
 
-!p::
+^+i::
 FormatTime, CurrDATE, HHmmsstt
 Sleep, 250
-Send, %CurrDATE%
+Send, Jacob Bray %CurrDATE%
 Return
 
 !o::
