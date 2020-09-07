@@ -282,6 +282,7 @@ client.on("message", function(message) {
       return message.channel.sendEmbed(embed);
     }
   }
+// Mute command
   if (command === "mute") {
     if (message.author.bot) return;
     if (!message.member.hasPermission("MUTE_MEMBERS"))
