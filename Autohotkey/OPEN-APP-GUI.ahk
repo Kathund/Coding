@@ -576,7 +576,7 @@ Return
 Return
 
 !p::
-FormatTime, CurrDATE, DDMMYYYY
+FormatTime, CurrDATE, HHmmsstt
 Sleep, 250
 Send, %CurrDATE%
 Return
