@@ -19,6 +19,24 @@ client.on("guildMemberAdd", member => {
   );
 });
 
+client.on("message", async message => {
+  if (!message.guild) return;
+  if (message.author.bot) return;
+  if (message.content.startsWith(`${config.prefix}find`)) {
+    const member = message.mentions.members.first();
+    if (!member) return message.channel.send("You must mention someone");
+    const embed = new Discord.RichEmbed()
+      .setTitle(`${member.user.username}'s information`)
+      .setColor("RANDOM")
+      
+      .addField(`Username is:`, ` ${member.user.username}`)
+      .addField(` ID is:`, ` ${member.user.id}`)
+      .addField(`Bot:`, ` ${member.user.bot}`)
+      .addField(` Status is: `, `${member.user.presence.status}`)
+      .addField(`Acc Created at:`, `${member.user.createdAt}`);
+    message.channel.send(embed);
+  }
+
 //Moderation commands
 client.on("message", function(message) {
   const args = message.content.slice(config.prefix.length).split(/ +/);
