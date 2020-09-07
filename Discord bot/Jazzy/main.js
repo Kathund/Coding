@@ -214,7 +214,7 @@ client.on("message", async message => {
     );
   }
 });
-//MOderation commands
+//Moderation commands
 client.on("message", function(message) {
   const args = message.content.slice(config.prefix.length).split(/ +/);
   const command = args.shift().toLowerCase();
