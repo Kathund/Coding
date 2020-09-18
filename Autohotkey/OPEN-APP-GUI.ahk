@@ -581,14 +581,27 @@ Sleep, 250
 Send, Jacob Bray %CurrDATE%
 Return
 
-!o::
-Loop, 40
-{
-        MouseClick, Left, 1370, 480, 1, 0,
-        Sleep, 250
-        MouseClick, Left, 2634, 398, 1, 0,
-        Sleep, 250
-        MouseClick, Left, 2606, 606, 1, 0,
-        Sleep, 1500
-}
-Return
+/**
+Gui 1 = main
+Gui 2 = nothing
+Gui 3 = Science
+Gui 4 = maths
+Gui 5 = text book math
+Gui 6 = vol stuff
+Gui 7 = timetable
+Gui 8 = monday - timetable
+Gui 9 = Tuesday - timetable
+Gui 10 = Wednesday - timetable
+Gui 11 = Thursday - timetable
+Gui 12 = Friday - timetable
+Gui 13 = Soundboard
+Gui 14 = Humanities
+Gui 15 = Other
+Gui 16 = Scripts
+Gui 17 = Screenshot
+Gui 18 = Edit
+Gui 19 = Computing
+Gui 20 = Robot
+Gui 21 = Workspace
+Gui 22 = TerriaSound
+*/
