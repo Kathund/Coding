@@ -36,6 +36,25 @@ Gui, Add, Button, Default w100 h20 x0 y20 gRobot, Robot
 Gui, Show, w100 h40
 Return
 
+Games:
+Gui 15: Destroy
+Gui 2: Default
+Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
+Gui, Add, Button, Default w50 h20 x50 y0 gGUI, GO BACK!
+Gui, Add, Button, Default w100 h20 x0 y20 gSuperHot, Superhot
+Gui, Show, w100 h40
+Return
+
+SuperHot:
+Gui 2: Destroy
+Run, C:\Users\crbra\OneDrive\Desktop\Games\SUPERHOT\SUPERHOT.exe
+Return
+
+KSP:
+Gui 2: Destroy
+Run, C:\Users\crbra\OneDrive\Desktop\Games\Kerbal Space Program\KSP_x64.exe
+Return
+
 Robot:
 Gui 19: Destroy
 Gui 20: Default
@@ -85,7 +104,8 @@ Gui, Add, Button, Default w100 h20 x0 y40 gScripts, Scrpits
 Gui, Add, Button, Default w100 h20 x0 y60 gVol, Vol
 Gui, Add, Button, Default w100 h20 x0 y80 gBIn, Empty Bin
 Gui, Add, Button, Default w100 h20 x0 y100 gTimer, Daily Timer
-Gui, Show, w100 h120 Center, Other
+Gui, Add, Button, Default w100 h20 x0 y120 gGames, Games
+Gui, Show, w100 h140 Center, Other
 Return
 
 Timer:
@@ -583,7 +603,7 @@ Return
 
 /**
 Gui 1 = main
-Gui 2 = nothing
+Gui 2 = Games
 Gui 3 = Science
 Gui 4 = maths
 Gui 5 = text book math
