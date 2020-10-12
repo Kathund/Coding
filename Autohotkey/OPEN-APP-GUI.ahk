@@ -42,7 +42,11 @@ Gui 2: Default
 Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
 Gui, Add, Button, Default w50 h20 x50 y0 gGUI, GO BACK!
 Gui, Add, Button, Default w100 h20 x0 y20 gSuperHot, Superhot
-Gui, Show, w100 h40
+Gui, Add, Button, Default w100 h20 x0 y40 gKSP, KSP
+Gui, Add, Button, Default w100 h20 x0 y60 gPvZ, Pvz
+Gui, Add, Button, Default w100 h20 x0 y80, gSteam, Steam
+Gui, Add, Button, Default w100 h20 x0 y100,
+Gui, Show, w100 h120
 Return
 
 SuperHot:
@@ -54,6 +58,22 @@ KSP:
 Gui 2: Destroy
 Run, C:\Users\crbra\OneDrive\Desktop\Games\Kerbal Space Program\KSP_x64.exe
 Return
+
+PvZ:
+Gui 2: Destroy
+Run, C:\Users\crbra\OneDrive\Desktop\Games\Plants Vs Zombies GOTY\PlantsVsZombies.exe
+Return
+
+Among:
+Gui 2: Destroy
+Run, C:\Program Files (x86)\Steam\steamapps\common\Among Us\Among Us.exe
+Return
+
+Steam:
+Gui 2: Destroy
+Run, C:\Program Files (x86)\Steam\steam.exe
+Return
+
 
 Robot:
 Gui 19: Destroy
