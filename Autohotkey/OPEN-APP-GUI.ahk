@@ -1,6 +1,5 @@
 Menu, TRAY, Icon, C:\Users\crbra\OneDrive\Desktop\Not School\Github\Coding\ICONS\open-app.ico
 
-
 GUI:
 Gui 1: Default
 Gui 3: Destroy
@@ -67,7 +66,7 @@ Return
 Among:
 Gui 2: Destroy
 Run, C:\Program Files (x86)\Steam\steamapps\common\Among Us\Among Us.exe
-Return
+Return                                                                                                                                                                                                                                                  
 
 Steam:
 Gui 2: Destroy
@@ -441,7 +440,7 @@ Return
 
 BookScience:
 Gui 3: Destroy
-Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\Science\Chem Booklet 2020 GEN.docx
+Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\Science\Booklet.docx
 Return
 
 SeqtaScience:
@@ -451,7 +450,7 @@ Return
 
 PowerPointScience:
 Gui 3: Destroy
-Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\Science\Chemistry Power Point 2020.pptx
+Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\Science\PowerPoint.pptx
 Return
 
 Maths:
