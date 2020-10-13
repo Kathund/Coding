@@ -1,4 +1,3 @@
-Menu, TRAY, Icon, C:\Users\crbra\OneDrive\Desktop\Not School\Github\Coding\ICONS\open-app.ico
 
 GUI:
 Gui 1: Default
