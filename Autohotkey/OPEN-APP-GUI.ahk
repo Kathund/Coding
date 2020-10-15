@@ -273,6 +273,11 @@ Return
 
 VolUP:
 SoundSet +2
+SoundGet, Vol
+SplashTextOn, 150, 150, Vol, The current volume is %Vol%
+WinMove, Vol, , 0, 0
+Sleep, 500
+SplashTextOff
 Return
 
 Vol0:
@@ -285,6 +290,11 @@ Return
 
 VolDOWN:
 SoundSet -2
+SoundGet, Vol
+SplashTextOn, 150, 150, Vol, The current volume is %Vol%
+WinMove, Vol, , 0, 0
+Sleep, 500
+SplashTextOff
 Return
 
 
@@ -616,7 +626,7 @@ Return
 ^+i::
 FormatTime, CurrDATE, HHmmsstt
 Sleep, 250
-Send, Jacob Bray %CurrDATE%
+Send, %CurrDATE%
 Return
 
 /**
