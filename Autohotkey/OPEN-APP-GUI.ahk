@@ -1,5 +1,3 @@
-Menu, TRAY, Icon, C:\Users\crbra\OneDrive\Desktop\Not School\Github\Coding\ICONS\open-app.ico
-
 
 GUI:
 Gui 1: Default
@@ -42,7 +40,11 @@ Gui 2: Default
 Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
 Gui, Add, Button, Default w50 h20 x50 y0 gGUI, GO BACK!
 Gui, Add, Button, Default w100 h20 x0 y20 gSuperHot, Superhot
-Gui, Show, w100 h40
+Gui, Add, Button, Default w100 h20 x0 y40 gKSP, KSP
+Gui, Add, Button, Default w100 h20 x0 y60 gPvZ, Pvz
+Gui, Add, Button, Default w100 h20 x0 y80, gSteam, Steam
+Gui, Add, Button, Default w100 h20 x0 y100,
+Gui, Show, w100 h120
 Return
 
 SuperHot:
@@ -54,6 +56,22 @@ KSP:
 Gui 2: Destroy
 Run, C:\Users\crbra\OneDrive\Desktop\Games\Kerbal Space Program\KSP_x64.exe
 Return
+
+PvZ:
+Gui 2: Destroy
+Run, C:\Users\crbra\OneDrive\Desktop\Games\Plants Vs Zombies GOTY\PlantsVsZombies.exe
+Return
+
+Among:
+Gui 2: Destroy
+Run, C:\Program Files (x86)\Steam\steamapps\common\Among Us\Among Us.exe
+Return                                                                                                                                                                                                                                                  
+
+Steam:
+Gui 2: Destroy
+Run, C:\Program Files (x86)\Steam\steam.exe
+Return
+
 
 Robot:
 Gui 19: Destroy
@@ -83,12 +101,12 @@ Return
 
 CurrentSix:
 Gui 21: Destroy
-Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\computer\Robot\six\CUrrent.EZB
+Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\D AND T\Robot\six\CUrrent.EZB
 Return
 
 CurrentJD:
 Gui 21: Destroy
-Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\computer\Robot\JD\Current.EZB
+Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\D AND T\Robot\JD\Current.EZB
 Return
 
 Other:
@@ -255,6 +273,11 @@ Return
 
 VolUP:
 SoundSet +2
+SoundGet, Vol
+SplashTextOn, 150, 150, Vol, The current volume is %Vol%
+WinMove, Vol, , 0, 0
+Sleep, 500
+SplashTextOff
 Return
 
 Vol0:
@@ -267,6 +290,11 @@ Return
 
 VolDOWN:
 SoundSet -2
+SoundGet, Vol
+SplashTextOn, 150, 150, Vol, The current volume is %Vol%
+WinMove, Vol, , 0, 0
+Sleep, 500
+SplashTextOff
 Return
 
 
@@ -421,7 +449,7 @@ Return
 
 BookScience:
 Gui 3: Destroy
-Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\Science\Chem Booklet 2020 GEN.docx
+Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\Science\Booklet.docx
 Return
 
 SeqtaScience:
@@ -431,7 +459,7 @@ Return
 
 PowerPointScience:
 Gui 3: Destroy
-Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\Science\Chemistry Power Point 2020.pptx
+Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\Science\PowerPoint.pptx
 Return
 
 Maths:
@@ -476,8 +504,402 @@ Gui, Add, Button, w100 h20 x0 y160 gMathsChapter7, Chapter 7
 Gui, Add, Button, w100 h20 x0 y180 gMathsChapter8, Chapter 8
 Gui, Add, Button, w100 h20 x0 y200 gMathsChapter9, Chapter 9
 Gui, Add, Button, w100 h20 x0 y220 gMathsChapter10, Chapter 10
-Gui, Show, w100 h220 Center, bald
+Gui, Add, Button, w100 h20 x0 y240 gMathLetters, Letters
+Gui, Show, w100 h260 Center, bald
 Return
+
+MathLetters:
+Gui 5: Destroy
+InputBox, KeyOUT, Key, What letter are we going to?, , , , , , , 45
+{        
+        If (KeyOUT = "Cancal") 
+                Reload        
+        If (KeyOUT = "A")
+                Send, A         
+        If (KeyOUT = "B")
+                Send, A         {Return}
+                Send, B         {Return}
+        If (KeyOUT = "C")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+        If (KeyOUT = "D")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+        If (KeyOUT = "E")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+        If (KeyOUT = "F")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+                Send, F         {Return}
+        If (KeyOUT = "G")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+                Send, F         {Return}
+                Send, G         {Return}
+        If (KeyOUT = "H")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+                Send, F         {Return}
+                Send, G         {Return}
+                Send, H         {Return}
+        If (KeyOUT = "I")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+                Send, F         {Return}
+                Send, G         {Return}
+                Send, H         {Return}
+                Send, I         {Return}
+        If (KeyOUT = "J")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+                Send, F         {Return}
+                Send, G         {Return}
+                Send, H         {Return}
+                Send, I         {Return}
+                Send, J         {Return}
+        If (KeyOUT = "K")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+                Send, F         {Return}
+                Send, G         {Return}
+                Send, H         {Return}
+                Send, I         {Return}
+                Send, J         {Return}
+                Send, K         {Return}
+        If (KeyOUT = "L")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+                Send, F         {Return}
+                Send, G         {Return}
+                Send, H         {Return}
+                Send, I         {Return}
+                Send, J         {Return}
+                Send, K         {Return}
+                Send, L         {Return}
+        If (KeyOUT = "M")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+                Send, F         {Return}
+                Send, G         {Return}
+                Send, H         {Return}
+                Send, I         {Return}
+                Send, J         {Return}
+                Send, K         {Return}
+                Send, L         {Return}
+                Send, M         {Return}
+        If (KeyOUT = "N")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+                Send, F         {Return}
+                Send, G         {Return}
+                Send, H         {Return}
+                Send, I         {Return}
+                Send, J         {Return}
+                Send, K         {Return}
+                Send, L         {Return}
+                Send, M         {Return}
+                Send, N         {Return}
+        If (KeyOUT = "O")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+                Send, F         {Return}
+                Send, G         {Return}
+                Send, H         {Return}
+                Send, I         {Return}
+                Send, J         {Return}
+                Send, K         {Return}
+                Send, L         {Return}
+                Send, M         {Return}
+                Send, N         {Return}
+                Send, O         {Return}
+        If (KeyOUT = "P")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+                Send, F         {Return}
+                Send, G         {Return}
+                Send, H         {Return}
+                Send, I         {Return}
+                Send, J         {Return}
+                Send, K         {Return}
+                Send, L         {Return}
+                Send, M         {Return}
+                Send, N         {Return}
+                Send, O         {Return}
+                Send, P         {Return}
+        If (KeyOUT = "Q")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+                Send, F         {Return}
+                Send, G         {Return}
+                Send, H         {Return}
+                Send, I         {Return}
+                Send, J         {Return}
+                Send, K         {Return}
+                Send, L         {Return}
+                Send, M         {Return}
+                Send, N         {Return}
+                Send, O         {Return}
+                Send, P         {Return}
+                Send, Q         {Return}
+        If (KeyOUT = "R")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+                Send, F         {Return}
+                Send, G         {Return}
+                Send, H         {Return}
+                Send, I         {Return}
+                Send, J         {Return}
+                Send, K         {Return}
+                Send, L         {Return}
+                Send, M         {Return}
+                Send, N         {Return}
+                Send, O         {Return}
+                Send, P         {Return}
+                Send, Q         {Return}
+                Send, R         {Return}
+        If (KeyOUT = "S")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+                Send, F         {Return}
+                Send, G         {Return}
+                Send, H         {Return}
+                Send, I         {Return}
+                Send, J         {Return}
+                Send, K         {Return}
+                Send, L         {Return}
+                Send, M         {Return}
+                Send, N         {Return}
+                Send, O         {Return}
+                Send, P         {Return}
+                Send, Q         {Return}
+                Send, R         {Return}
+                Send, S         {Return}
+        If (KeyOUT = "T")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+                Send, F         {Return}
+                Send, G         {Return}
+                Send, H         {Return}
+                Send, I         {Return}
+                Send, J         {Return}
+                Send, K         {Return}
+                Send, L         {Return}
+                Send, M         {Return}
+                Send, N         {Return}
+                Send, O         {Return}
+                Send, P         {Return}
+                Send, Q         {Return}
+                Send, R         {Return}
+                Send, S         {Return}
+                Send, T         {Return}
+                Send, U         {Return}
+                Send, V         {Return}
+                Send, W         {Return}
+                Send, X         {Return}
+                Send, Y         {Return}
+                Send, Z         {Return}
+        If (KeyOUT = "U")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+                Send, F         {Return}
+                Send, G         {Return}
+                Send, H         {Return}
+                Send, I         {Return}
+                Send, J         {Return}
+                Send, K         {Return}
+                Send, L         {Return}
+                Send, M         {Return}
+                Send, N         {Return}
+                Send, O         {Return}
+                Send, P         {Return}
+                Send, Q         {Return}
+                Send, R         {Return}
+                Send, S         {Return}
+                Send, T         {Return}
+                Send, U         {Return}
+        If (KeyOUT = "V")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+                Send, F         {Return}
+                Send, G         {Return}
+                Send, H         {Return}
+                Send, I         {Return}
+                Send, J         {Return}
+                Send, K         {Return}
+                Send, L         {Return}
+                Send, M         {Return}
+                Send, N         {Return}
+                Send, O         {Return}
+                Send, P         {Return}
+                Send, Q         {Return}
+                Send, R         {Return}
+                Send, S         {Return}
+                Send, T         {Return}
+                Send, U         {Return}
+                Send, V         {Return}
+        If (KeyOUT = "W")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+                Send, F         {Return}
+                Send, G         {Return}
+                Send, H         {Return}
+                Send, I         {Return}
+                Send, J         {Return}
+                Send, K         {Return}
+                Send, L         {Return}
+                Send, M         {Return}
+                Send, N         {Return}
+                Send, O         {Return}
+                Send, P         {Return}
+                Send, Q         {Return}
+                Send, R         {Return}
+                Send, S         {Return}
+                Send, T         {Return}
+                Send, U         {Return}
+                Send, V         {Return}
+                Send, W         {Return}
+        If (KeyOUT = "X")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+                Send, F         {Return}
+                Send, G         {Return}
+                Send, H         {Return}
+                Send, I         {Return}
+                Send, J         {Return}
+                Send, K         {Return}
+                Send, L         {Return}
+                Send, M         {Return}
+                Send, N         {Return}
+                Send, O         {Return}
+                Send, P         {Return}
+                Send, Q         {Return}
+                Send, R         {Return}
+                Send, S         {Return}
+                Send, T         {Return}
+                Send, U         {Return}
+                Send, V         {Return}
+                Send, W         {Return}
+                Send, X         {Return}
+        If (KeyOUT = "Y")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+                Send, F         {Return}
+                Send, G         {Return}
+                Send, H         {Return}
+                Send, I         {Return}
+                Send, J         {Return}
+                Send, K         {Return}
+                Send, L         {Return}
+                Send, M         {Return}
+                Send, N         {Return}
+                Send, O         {Return}
+                Send, P         {Return}
+                Send, Q         {Return}
+                Send, R         {Return}
+                Send, S         {Return}
+                Send, T         {Return}
+                Send, U         {Return}
+                Send, V         {Return}
+                Send, W         {Return}
+                Send, X         {Return}
+                Send, Y         {Return}
+        If (KeyOUT = "Z")
+                Send, A         {Return}
+                Send, B         {Return}
+                Send, C         {Return}
+                Send, D         {Return}
+                Send, E         {Return}
+                Send, F         {Return}
+                Send, G         {Return}
+                Send, H         {Return}
+                Send, I         {Return}
+                Send, J         {Return}
+                Send, K         {Return}
+                Send, L         {Return}
+                Send, M         {Return}
+                Send, N         {Return}
+                Send, O         {Return}
+                Send, P         {Return}
+                Send, Q         {Return}
+                Send, R         {Return}
+                Send, S         {Return}
+                Send, T         {Return}
+                Send, U         {Return}
+                Send, V         {Return}
+                Send, W         {Return}
+                Send, X         {Return}
+                Send, Y         {Return}
+                Send, Z         {Return}
+}
+Return
+
 
 MathsChapterAnswers:
 Gui 5: Destroy
@@ -598,7 +1020,7 @@ Return
 ^+i::
 FormatTime, CurrDATE, HHmmsstt
 Sleep, 250
-Send, Jacob Bray %CurrDATE%
+Send, %CurrDATE%
 Return
 
 /**
