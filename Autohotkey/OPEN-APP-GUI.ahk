@@ -625,6 +625,7 @@ Send, I         {Return}
 Return
 
 MathLettersJ:
+Gui 23: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -638,6 +639,7 @@ Send, J         {Return}
 Return
 
 MathLettersK:
+Gui 23: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -652,6 +654,7 @@ Send, K         {Return}
 Return
 
 MathLettersL:
+Gui 23: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -667,6 +670,7 @@ Send, L         {Return}
 Return
 
 MathLettersM:
+Gui 23: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -683,6 +687,7 @@ Send, M         {Return}
 Return
 
 MathLettersN:
+Gui 23: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -700,6 +705,7 @@ Send, N         {Return}
 Return
 
 MathLettersO:
+Gui 23: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -718,6 +724,7 @@ Send, O         {Return}
 Return
 
 MathLettersP:
+Gui 23: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -737,6 +744,7 @@ Send, P         {Return}
 Return
 
 MathLettersQ:
+Gui 23: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -757,6 +765,7 @@ Send, Q         {Return}
 Return
 
 MathLettersR:
+Gui 23: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -778,6 +787,7 @@ Send, R         {Return}
 Return
 
 MathLettersS:
+Gui 23: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -800,6 +810,7 @@ Send, S         {Return}
 Return
 
 MathLettersT:
+Gui 23: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -823,6 +834,7 @@ Send, T         {Return}
 Return
 
 MathLettersU:
+Gui 23: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -846,7 +858,8 @@ Send, T         {Return}
 Send, U         {Return}
 Return
 
- MathLettersV:
+MathLettersV:
+Gui 23: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -872,6 +885,7 @@ Send, V         {Return}
 Return
 
 MathLettersW:
+Gui 23: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -898,6 +912,7 @@ Send, W         {Return}
 Return
 
 MathLettersX:
+Gui 23: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -925,6 +940,7 @@ Send, X         {Return}
 Return
 
 MathLettersY:
+Gui 23: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -953,6 +969,7 @@ Send, Y         {Return}
 Return
 
 MathLettersZ:
+Gui 23: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
