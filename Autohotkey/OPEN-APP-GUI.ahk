@@ -123,7 +123,16 @@ Gui, Add, Button, Default w100 h20 x0 y60 gVol, Vol
 Gui, Add, Button, Default w100 h20 x0 y80 gBIn, Empty Bin
 Gui, Add, Button, Default w100 h20 x0 y100 gTimer, Daily Timer
 Gui, Add, Button, Default w100 h20 x0 y120 gGames, Games
-Gui, Show, w100 h140 Center, Other
+Gui, Add, Button, Default w100 h20 x0 y140 gQuickSerch, Quick Serch
+Gui, Show, w100 h160 Center, Other
+Return
+
+QuickSerch:
+InputBox, UserInput,Search, , ,500,100
+if %UserInput%
+{
+	Run, https://www.google.com/search?q=%UserInput%
+}
 Return
 
 Timer:
@@ -349,6 +358,7 @@ Gui 19: Destroy
 Gui 20: Destroy
 Gui 21: Destroy
 Gui 22: Destroy
+Gui 23: Destroy
 Gui, Add, Button, Default w75 h20 x0 y0 gGUI, GO BACK
 Gui, Add, Button, Default w75 h20 x0 y20 gMonday, Monday
 Gui, Add, Button, Default w75 h20 x0 y40 gTuesday, Tuesday
@@ -491,6 +501,7 @@ Return
 TextBoxMath:
 Gui 4: Destroy
 Gui 5: Default
+Gui 23: Destroy
 Gui, Add, Button, W50 H20 x0 y0 gTimetable, Timetable
 Gui, Add, Button, Default w50 H20 x50 y0 gMaths, GO BACK!
 Gui, Add, Button, w100 h20 x0 y20 gMathsChapterAnswers, Answers
@@ -512,7 +523,7 @@ MathLetters:
 Gui 5: Destroy
 Gui 23: Default
 Gui, Add, Button, W50 H20 x0 y0 gTimetable, Timetable
-Gui, Add, Button, Default w50 H20 x50 y0 gMaths, GO BACK!
+Gui, Add, Button, Default w50 H20 x50 y0 gTextBoxMathm , GO BACK!
 Gui, Add, Button, w100 h20 x0 y20 gMathLettersA, A
 Gui, Add, Button, w100 h20 x0 y40 gMathLettersB, B
 Gui, Add, Button, w100 h20 x0 y60 gMathLettersC, C 
@@ -1142,4 +1153,15 @@ Gui 19 = Computing
 Gui 20 = Robot
 Gui 21 = Workspace
 Gui 22 = TerriaSound
+  
+<^Space::
+InputBox, UserInput,Search, , ,500,100
+if %UserInput%
+{
+	Run, https://www.google.com/#q= + %UserInput%
+}
+
+
+
+
 */
