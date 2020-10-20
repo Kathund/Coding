@@ -540,8 +540,7 @@ Gui, Add, Button, w100 h20 x0 y480 gMathLettersX, X
 Gui, Add, Button, w100 h20 x0 y500 gMathLettersY, Y
 Gui, Add, Button, w100 h20 x0 y520 gMathLettersZ, Z
 Gui, Show, w100 h540 Center, bald
-
-
+Return
 
 MathLettersA:
 Gui 23: Destroy
