@@ -129,7 +129,7 @@ Return
 
 QuickSerch:
 Gui 15: Destroy
-InputBox, UserInput,Search, , ,500,100
+InputBox, UserInput,Search, , ,250,100
 if %UserInput%
 {
 	Run, https://www.google.com/search?q=%UserInput%
