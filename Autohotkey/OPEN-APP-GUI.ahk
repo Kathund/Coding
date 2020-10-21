@@ -524,34 +524,36 @@ MathLetters:
 Gui 5: Destroy
 Gui 23: Default
 Gui, Add, Button, W50 H20 x0 y0 gTimetable, Timetable
-Gui, Add, Button, Default w50 H20 x50 y0 gTextBoxMathm , GO BACK!
-Gui, Add, Button, w100 h20 x0 y20 gMathLettersA, A
-Gui, Add, Button, w100 h20 x0 y40 gMathLettersB, B
-Gui, Add, Button, w100 h20 x0 y60 gMathLettersC, C 
-Gui, Add, Button, w100 h20 x0 y80 gMathLettersD, D 
-Gui, Add, Button, w100 h20 x0 y100 gMathLettersE, E 
-Gui, Add, Button, w100 h20 x0 y120 gMathLettersF, F 
-Gui, Add, Button, w100 h20 x0 y140 gMathLettersG, G 
-Gui, Add, Button, w100 h20 x0 y160 gMathLettersH, H 
-Gui, Add, Button, w100 h20 x0 y180 gMathLettersI, I 
-Gui, Add, Button, w100 h20 x0 y200 gMathLettersJ, J 
-Gui, Add, Button, w100 h20 x0 y220 gMathLettersK, K 
-Gui, Add, Button, w100 h20 x0 y240 gMathLettersL, L
-Gui, Add, Button, w100 h20 x0 y260 gMathLettersM, M
-Gui, Add, Button, w100 h20 x0 y280 gMathLettersN, N
-Gui, Add, Button, w100 h20 x0 y300 gMathLettersO, O
-Gui, Add, Button, w100 h20 x0 y320 gMathLettersP, P
-Gui, Add, Button, w100 h20 x0 y340 gMathLettersQ, Q
-Gui, Add, Button, w100 h20 x0 y360 gMathLettersR, R
-Gui, Add, Button, w100 h20 x0 y380 gMathLettersS, S
-Gui, Add, Button, w100 h20 x0 y400 gMathLettersT, T
-Gui, Add, Button, w100 h20 x0 y420 gMathLettersU, U
-Gui, Add, Button, w100 h20 x0 y440 gMathLettersV, V
-Gui, Add, Button, w100 h20 x0 y460 gMathLettersW, W
-Gui, Add, Button, w100 h20 x0 y480 gMathLettersX, X
-Gui, Add, Button, w100 h20 x0 y500 gMathLettersY, Y
-Gui, Add, Button, w100 h20 x0 y520 gMathLettersZ, Z
-Gui, Show, w100 h540 Center, bald
+Gui, Add, Button, Default w50 H20 x50 y0 gTextBoxMath , GO BACK!
+Gui, Add, Button, w50 h20 x0 y20 gMathLettersA, A
+Gui, Add, Button, w50 h20 x0 y40 gMathLettersB, B
+Gui, Add, Button, w50 h20 x0 y60 gMathLettersC, C 
+Gui, Add, Button, w50 h20 x0 y80 gMathLettersD, D 
+Gui, Add, Button, w50 h20 x0 y100 gMathLettersE, E 
+Gui, Add, Button, w50 h20 x0 y120 gMathLettersF, F 
+Gui, Add, Button, w50 h20 x0 y140 gMathLettersG, G 
+Gui, Add, Button, w50 h20 x0 y160 gMathLettersH, H 
+Gui, Add, Button, w50 h20 x0 y180 gMathLettersI, I 
+Gui, Add, Button, w50 h20 x0 y200 gMathLettersJ, J 
+;new part
+Gui, Add, Button, w50 h20 x50 y20 gMathLettersK, K 
+Gui, Add, Button, w50 h20 x50 y40 gMathLettersL, L
+Gui, Add, Button, w50 h20 x50 y60 gMathLettersM, M
+Gui, Add, Button, w50 h20 x50 y80 gMathLettersN, N
+Gui, Add, Button, w50 h20 x50 y100 gMathLettersO, O
+Gui, Add, Button, w50 h20 x50 y120 gMathLettersP, P
+Gui, Add, Button, w50 h20 x50 y140 gMathLettersQ, Q
+Gui, Add, Button, w50 h20 x50 y160 gMathLettersR, R
+Gui, Add, Button, w50 h20 x50 y180 gMathLettersS, S
+Gui, Add, Button, w50 h20 x50 y200 gMathLettersT, T
+;new part
+Gui, Add, Button, w50 h20 x100 y20 gMathLettersU, U
+Gui, Add, Button, w50 h20 x100 y40 gMathLettersV, V
+Gui, Add, Button, w50 h20 x100 y60 gMathLettersW, W
+Gui, Add, Button, w50 h20 x100 y80 gMathLettersX, X
+Gui, Add, Button, w50 h20 x100 y100 gMathLettersY, Y
+Gui, Add, Button, w50 h20 x100 y120 gMathLettersZ, Z
+Gui, Show, w150 h220 Center, bald
 Return
 
 MathLettersA:
@@ -1162,7 +1164,19 @@ if %UserInput%
 	Run, https://www.google.com/#q= + %UserInput%
 }
 
+*/
+
+
+
+
+
+
+
+
+
+
 
 
 
 */
+
