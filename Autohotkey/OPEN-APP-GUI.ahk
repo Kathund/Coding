@@ -128,6 +128,7 @@ Gui, Show, w100 h160 Center, Other
 Return
 
 QuickSerch:
+Gui 15: Destroy
 InputBox, UserInput,Search, , ,500,100
 if %UserInput%
 {
