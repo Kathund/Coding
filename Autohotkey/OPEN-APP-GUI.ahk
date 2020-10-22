@@ -1165,18 +1165,34 @@ if %UserInput%
 }
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*
+Send, {Alt}
+Sleep, 50
+Send, F
+Sleep, 50
+Send, T
+Sleep, 50
+Send, P
+MouseClick, left, 1600, 500, 1,0,
+Sleep, 1750
+MouseClick, left, 980, 540, 1, 0,
+Sleep, 50
+MouseClick, left, 980, 590, 1, 0,
+Sleep, 50
+MouseClick, left, 980, 630, 1, 0,
+Sleep, 50
+MouseClick, left, 980, 690, 1, 0,
+Sleep, 50
+MouseClick, left, 980, 730, 1, 0,
 */
+
+
+
+
+
+!q::
+MouseGetPos, MouseX, MouseY,
+Send, %MouseX% and %MouseY%
+Return
+
 

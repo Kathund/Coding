@@ -1,10 +1,9 @@
-﻿CoordMode, Mouse, Screen
-SetTimer, Check, 20
-return
-
-Check:
-MouseGetPos, xx, yy
-Tooltip %xx%`, %yy%
+﻿Loop
+{
+    MouseGetPos, xx, yy
+    Tooltip %xx%`, %yy%
+    Sleep, 50
+}
 return
 
 Esc::ExitApp
