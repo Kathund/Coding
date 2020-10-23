@@ -1127,7 +1127,17 @@ Return
 }
 Return
 
-^+i::
+!q::
+Loop 100
+{
+MouseGetPos, xx, yy
+FormatTime, CurrDATE, HHmmsstt
+ToolTip, %CurrDATE%, %xx%, %yy%
+}
+ToolTip,
+Returnd
+
+!i::
 FormatTime, CurrDATE, HHmmsstt
 Sleep, 250
 Send, %CurrDATE%
@@ -1190,9 +1200,6 @@ MouseClick, left, 980, 730, 1, 0,
 
 
 
-!q::
-MouseGetPos, MouseX, MouseY,
-Send, %MouseX% and %MouseY%
-Return
+
 
 
