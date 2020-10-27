@@ -503,6 +503,7 @@ TextBoxMath:
 Gui 4: Destroy
 Gui 5: Default
 Gui 23: Destroy
+Gui 24: Destroy
 Gui, Add, Button, W50 H20 x0 y0 gTimetable, Timetable
 Gui, Add, Button, Default w50 H20 x50 y0 gMaths, GO BACK!
 Gui, Add, Button, w100 h20 x0 y20 gMathsChapterAnswers, Answers
@@ -521,10 +522,10 @@ Gui, Show, w100 h260 Center, bald
 Return
 
 MathLetters:
-Gui 5: Destroy
-Gui 23: Default
+Gui 23: Destroy
+Gui 24: Default
 Gui, Add, Button, W50 H20 x0 y0 gTimetable, Timetable
-Gui, Add, Button, Default w50 H20 x50 y0 gTextBoxMath , GO BACK!
+Gui, Add, Button, Default w50 H20 x50 y0 gTextBoxMath, GO BACK!
 Gui, Add, Button, w50 h20 x0 y20 gMathLettersA, A
 Gui, Add, Button, w50 h20 x0 y40 gMathLettersB, B
 Gui, Add, Button, w50 h20 x0 y60 gMathLettersC, C 
@@ -553,29 +554,30 @@ Gui, Add, Button, w50 h20 x100 y60 gMathLettersW, W
 Gui, Add, Button, w50 h20 x100 y80 gMathLettersX, X
 Gui, Add, Button, w50 h20 x100 y100 gMathLettersY, Y
 Gui, Add, Button, w50 h20 x100 y120 gMathLettersZ, Z
+Gui, Add, Button, w50 h20 x100 y140 gMathLetters, Toggle Cap
 Gui, Show, w150 h220 Center, bald
 Return
 
 MathLettersA:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         
 Return
 
 MathLettersB:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Return
 
 MathLettersC:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
 Return
 
 MathLettersD:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -583,7 +585,7 @@ Send, D         {Return}
 Return
 
 MathLettersE:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -592,7 +594,7 @@ Send, E         {Return}
 Return
 
 MathLettersF:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -602,7 +604,7 @@ Send, F         {Return}
 Return
 
 MathLettersG:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -613,7 +615,7 @@ Send, G         {Return}
 Return
 
 MathLettersH:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -625,7 +627,7 @@ Send, H         {Return}
 Return
 
 MathLettersI:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -637,8 +639,8 @@ Send, H         {Return}
 Send, I         {Return}
 Return
 
-MathLettersJ:
-Gui 23: Destroy
+MathLettersJv:
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -652,7 +654,7 @@ Send, J         {Return}
 Return
 
 MathLettersK:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -667,7 +669,7 @@ Send, K         {Return}
 Return
 
 MathLettersL:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -683,7 +685,7 @@ Send, L         {Return}
 Return
 
 MathLettersM:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -700,7 +702,7 @@ Send, M         {Return}
 Return
 
 MathLettersN:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -718,7 +720,7 @@ Send, N         {Return}
 Return
 
 MathLettersO:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -737,7 +739,7 @@ Send, O         {Return}
 Return
 
 MathLettersP:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -757,7 +759,7 @@ Send, P         {Return}
 Return
 
 MathLettersQ:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -778,7 +780,7 @@ Send, Q         {Return}
 Return
 
 MathLettersR:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -800,7 +802,7 @@ Send, R         {Return}
 Return
 
 MathLettersS:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -823,7 +825,7 @@ Send, S         {Return}
 Return
 
 MathLettersT:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -847,7 +849,7 @@ Send, T         {Return}
 Return
 
 MathLettersU:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -872,7 +874,7 @@ Send, U         {Return}
 Return
 
 MathLettersV:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -898,7 +900,7 @@ Send, V         {Return}
 Return
 
 MathLettersW:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -925,7 +927,7 @@ Send, W         {Return}
 Return
 
 MathLettersX:
-Gui 23: Destroy
+Gui 24: Destroy
 Send, A         {Return}
 Send, B         {Return}
 Send, C         {Return}
@@ -953,6 +955,498 @@ Send, X         {Return}
 Return
 
 MathLettersY:
+Gui 24: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Send, F         {Return}
+Send, G         {Return}
+Send, H         {Return}
+Send, I         {Return}
+Send, J         {Return}
+Send, K         {Return}
+Send, L         {Return}
+Send, M         {Return}
+Send, N         {Return}
+Send, O         {Return}
+Send, P         {Return}
+Send, Q         {Return}
+Send, R         {Return}
+Send, S         {Return}
+Send, T         {Return}
+Send, U         {Return}
+Send, V         {Return}
+Send, W         {Return}
+Send, x         {Return}
+Send, Y         {Return}
+Return
+
+MathLettersZ:
+Gui 24: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Send, F         {Return}
+Send, G         {Return}
+Send, H         {Return}
+Send, I         {Return}
+Send, J         {Return}
+Send, K         {Return}
+Send, L         {Return}
+Send, M         {Return}
+Send, N         {Return}
+Send, O         {Return}
+Send, P         {Return}
+Send, Q         {Return}
+Send, R         {Return}
+Send, S         {Return}
+Send, T         {Return}
+Send, U         {Return}
+Send, V         {Return}
+Send, W         {Return}
+Send, x         {Return}
+Send, y         {Return}
+Send, z         {Return}
+Return
+
+MathLettersCAP:
+Gui 5: Destroy
+Gui 23: Default
+Gui, Add, Button, W50 H20 x0 y0 gTimetable, Timetable
+Gui, Add, Button, Default w50 H20 x50 y0 gTextBoxMath, GO BACK!
+Gui, Add, Button, w50 h20 x0 y20 gMathLettersACAP, A
+Gui, Add, Button, w50 h20 x0 y40 gMathLettersBCAP, B
+Gui, Add, Button, w50 h20 x0 y60 gMathLettersCCAP, C 
+Gui, Add, Button, w50 h20 x0 y80 gMathLettersDCAP, D 
+Gui, Add, Button, w50 h20 x0 y100 gMathLettersECAP, E 
+Gui, Add, Button, w50 h20 x0 y120 gMathLettersFCAP, F 
+Gui, Add, Button, w50 h20 x0 y140 gMathLettersGCAP, G 
+Gui, Add, Button, w50 h20 x0 y160 gMathLettersHCAP, H 
+Gui, Add, Button, w50 h20 x0 y180 gMathLettersICAP, I 
+Gui, Add, Button, w50 h20 x0 y200 gMathLettersJCAP, J 
+;new part
+Gui, Add, Button, w50 h20 x50 y20 gMathLettersKCAP, K 
+Gui, Add, Button, w50 h20 x50 y40 gMathLettersLCAP, L
+Gui, Add, Button, w50 h20 x50 y60 gMathLettersMCAP, M
+Gui, Add, Button, w50 h20 x50 y80 gMathLettersNCAP, N
+Gui, Add, Button, w50 h20 x50 y100 gMathLettersOCAP, O
+Gui, Add, Button, w50 h20 x50 y120 gMathLettersCAPP, P
+Gui, Add, Button, w50 h20 x50 y140 gMathLettersQCAP, Q
+Gui, Add, Button, w50 h20 x50 y160 gMathLettersRCAP, R
+Gui, Add, Button, w50 h20 x50 y180 gMathLettersSCAP, S
+Gui, Add, Button, w50 h20 x50 y200 gMathLettersTCAP, T
+;new part
+Gui, Add, Button, w50 h20 x100 y20 gMathLettersUCAP, U
+Gui, Add, Button, w50 h20 x100 y40 gMathLettersVCAP, V
+Gui, Add, Button, w50 h20 x100 y60 gMathLettersWCAP, W
+Gui, Add, Button, w50 h20 x100 y80 gMathLettersXCAP, X
+Gui, Add, Button, w50 h20 x100 y100 gMathLettersYCAP, Y
+Gui, Add, Button, w50 h20 x100 y120 gMathLettersZCAP, Z
+Gui, Add, Button, w50 h20 x100 y140 gNONCAP, Toggle Cap
+Gui, Show, w150 h220 Center, bald
+Return
+
+MathLettersACAP:
+Gui 23: Destroy
+Send, A         
+Return
+
+MathLettersBCAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Return
+
+MathLettersCCAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Return
+
+MathLettersDCAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Return
+
+MathLettersECAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Return
+
+MathLettersFCAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Send, F         {Return}
+Return
+
+MathLettersGCAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Send, F         {Return}
+Send, G         {Return}
+Return
+
+MathLettersHCAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Send, F         {Return}
+Send, G         {Return}
+Send, H         {Return}
+Return
+
+MathLettersICAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Send, F         {Return}
+Send, G         {Return}
+Send, H         {Return}
+Send, I         {Return}
+Return
+
+MathLettersJ:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Send, F         {Return}
+Send, G         {Return}
+Send, H         {Return}
+Send, I         {Return}
+Send, J         {Return}
+Return
+
+MathLettersKCAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Send, F         {Return}
+Send, G         {Return}
+Send, H         {Return}
+Send, I         {Return}
+Send, J         {Return}
+Send, K         {Return}
+Return
+
+MathLettersLCAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Send, F         {Return}
+Send, G         {Return}
+Send, H         {Return}
+Send, I         {Return}
+Send, J         {Return}
+Send, K         {Return}
+Send, L         {Return}
+Return
+
+MathLettersMCAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Send, F         {Return}
+Send, G         {Return}
+Send, H         {Return}
+Send, I         {Return}
+Send, J         {Return}
+Send, K         {Return}
+Send, L         {Return}
+Send, M         {Return}
+Return
+
+MathLettersNCAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Send, F         {Return}
+Send, G         {Return}
+Send, H         {Return}
+Send, I         {Return}
+Send, J         {Return}
+Send, K         {Return}
+Send, L         {Return}
+Send, M         {Return}
+Send, N         {Return}
+Return
+
+MathLettersOCAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Send, F         {Return}
+Send, G         {Return}
+Send, H         {Return}
+Send, I         {Return}
+Send, J         {Return}
+Send, K         {Return}
+Send, L         {Return}
+Send, M         {Return}
+Send, N         {Return}
+Send, O         {Return}
+Return
+
+MathLettersPCAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Send, F         {Return}
+Send, G         {Return}
+Send, H         {Return}
+Send, I         {Return}
+Send, J         {Return}
+Send, K         {Return}
+Send, L         {Return}
+Send, M         {Return}
+Send, N         {Return}
+Send, O         {Return}
+Send, P         {Return}
+Return
+
+MathLettersQCAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Send, F         {Return}
+Send, G         {Return}
+Send, H         {Return}
+Send, I         {Return}
+Send, J         {Return}
+Send, K         {Return}
+Send, L         {Return}
+Send, M         {Return}
+Send, N         {Return}
+Send, O         {Return}
+Send, P         {Return}
+Send, Q         {Return}
+Return
+
+MathLettersRCAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Send, F         {Return}
+Send, G         {Return}
+Send, H         {Return}
+Send, I         {Return}
+Send, J         {Return}
+Send, K         {Return}
+Send, L         {Return}
+Send, M         {Return}
+Send, N         {Return}
+Send, O         {Return}
+Send, P         {Return}
+Send, Q         {Return}
+Send, R         {Return}
+Return
+
+MathLettersSCAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Send, F         {Return}
+Send, G         {Return}
+Send, H         {Return}
+Send, I         {Return}
+Send, J         {Return}
+Send, K         {Return}
+Send, L         {Return}
+Send, M         {Return}
+Send, N         {Return}
+Send, O         {Return}
+Send, P         {Return}
+Send, Q         {Return}
+Send, R         {Return}
+Send, S         {Return}
+Return
+
+MathLettersTCAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Send, F         {Return}
+Send, G         {Return}
+Send, H         {Return}
+Send, I         {Return}
+Send, J         {Return}
+Send, K         {Return}
+Send, L         {Return}
+Send, M         {Return}
+Send, N         {Return}
+Send, O         {Return}
+Send, P         {Return}
+Send, Q         {Return}
+Send, R         {Return}
+Send, S         {Return}
+Send, T         {Return}
+Return
+
+MathLettersUCAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Send, F         {Return}
+Send, G         {Return}
+Send, H         {Return}
+Send, I         {Return}
+Send, J         {Return}
+Send, K         {Return}
+Send, L         {Return}
+Send, M         {Return}
+Send, N         {Return}
+Send, O         {Return}
+Send, P         {Return}
+Send, Q         {Return}
+Send, R         {Return}
+Send, S         {Return}
+Send, T         {Return}
+Send, U         {Return}
+Return
+
+MathLettersVCAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Send, F         {Return}
+Send, G         {Return}
+Send, H         {Return}
+Send, I         {Return}
+Send, J         {Return}
+Send, K         {Return}
+Send, L         {Return}
+Send, M         {Return}
+Send, N         {Return}
+Send, O         {Return}
+Send, P         {Return}
+Send, Q         {Return}
+Send, R         {Return}
+Send, S         {Return}
+Send, T         {Return}
+Send, U         {Return}
+Send, V         {Return}
+Return
+
+MathLettersWCAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Send, F         {Return}
+Send, G         {Return}
+Send, H         {Return}
+Send, I         {Return}
+Send, J         {Return}
+Send, K         {Return}
+Send, L         {Return}
+Send, M         {Return}
+Send, N         {Return}
+Send, O         {Return}
+Send, P         {Return}
+Send, Q         {Return}
+Send, R         {Return}
+Send, S         {Return}
+Send, T         {Return}
+Send, U         {Return}
+Send, V         {Return}
+Send, W         {Return}
+Return
+
+MathLettersXCAP:
+Gui 23: Destroy
+Send, A         {Return}
+Send, B         {Return}
+Send, C         {Return}
+Send, D         {Return}
+Send, E         {Return}
+Send, F         {Return}
+Send, G         {Return}
+Send, H         {Return}
+Send, I         {Return}
+Send, J         {Return}
+Send, K         {Return}
+Send, L         {Return}
+Send, M         {Return}
+Send, N         {Return}
+Send, O         {Return}
+Send, P         {Return}
+Send, Q         {Return}
+Send, R         {Return}
+Send, S         {Return}
+Send, T         {Return}
+Send, U         {Return}
+Send, V         {Return}
+Send, W         {Return}
+Send, X         {Return}
+Return
+
+MathLettersYCAP:
 Gui 23: Destroy
 Send, A         {Return}
 Send, B         {Return}
@@ -981,7 +1475,7 @@ Send, X         {Return}
 Send, Y         {Return}
 Return
 
-MathLettersZ:
+MathLettersZCAP:
 Gui 23: Destroy
 Send, A         {Return}
 Send, B         {Return}
@@ -1135,7 +1629,7 @@ FormatTime, CurrDATE, HHmmsstt
 ToolTip, %CurrDATE%, %xx%, %yy%
 }
 ToolTip,
-Returnd
+Return
 
 !i::
 FormatTime, CurrDATE, HHmmsstt
