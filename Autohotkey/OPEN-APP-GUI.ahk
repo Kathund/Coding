@@ -124,7 +124,8 @@ Gui, Add, Button, Default w100 h20 x0 y80 gBIn, Empty Bin
 Gui, Add, Button, Default w100 h20 x0 y100 gTimer, Daily Timer
 Gui, Add, Button, Default w100 h20 x0 y120 gGames, Games
 Gui, Add, Button, Default w100 h20 x0 y140 gQuickSerch, Quick Serch
-Gui, Show, w100 h160 Center, Other
+Gui, Add, Button, Default w100 h20 x0 y160 gMathLetters, Math letters
+Gui, Show, w100 h180 Center, Other
 Return
 
 QuickSerch:
@@ -523,19 +524,21 @@ Return
 
 MathLetters:
 Gui 5: Destroy
+Gui 15: Destroy
+Gui 23: Destroy
 Gui 24: Default
 Gui, Add, Button, W50 H20 x0 y0 gTimetable, Timetable
 Gui, Add, Button, Default w50 H20 x50 y0 gTextBoxMath, GO BACK!
-Gui, Add, Button, w50 h20 x0 y20 gMathLettersa, a
-Gui, Add, Button, w50 h20 x0 y40 gMathLettersb, b
-Gui, Add, Button, w50 h20 x0 y60 gMathLettersc, c 
-Gui, Add, Button, w50 h20 x0 y80 gMathLettersd, d 
-Gui, Add, Button, w50 h20 x0 y100 gMathLetterse, e 
-Gui, Add, Button, w50 h20 x0 y120 gMathLettersf, f 
-Gui, Add, Button, w50 h20 x0 y140 gMathLettersg, g 
-Gui, Add, Button, w50 h20 x0 y160 gMathLettersh, h 
-Gui, Add, Button, w50 h20 x0 y180 gMathLettersi, i 
-Gui, Add, Button, w50 h20 x0 y200 gMathLettersj, j 
+Gui, Add, Button, w50 h20 x0 y20 gMathLettersa, A
+Gui, Add, Button, w50 h20 x0 y40 gMathLettersb, B
+Gui, Add, Button, w50 h20 x0 y60 gMathLettersc, C 
+Gui, Add, Button, w50 h20 x0 y80 gMathLettersd, D 
+Gui, Add, Button, w50 h20 x0 y100 gMathLetterse, E 
+Gui, Add, Button, w50 h20 x0 y120 gMathLettersf, F 
+Gui, Add, Button, w50 h20 x0 y140 gMathLettersg, G 
+Gui, Add, Button, w50 h20 x0 y160 gMathLettersh, H 
+Gui, Add, Button, w50 h20 x0 y180 gMathLettersi, I 
+Gui, Add, Button, w50 h20 x0 y200 gMathLettersj, J 
 ;new part
 Gui, Add, Button, w50 h20 x50 y20 gMathLettersK, K 
 Gui, Add, Button, w50 h20 x50 y40 gMathLettersL, L
@@ -554,7 +557,7 @@ Gui, Add, Button, w50 h20 x100 y60 gMathLettersW, W
 Gui, Add, Button, w50 h20 x100 y80 gMathLettersX, X
 Gui, Add, Button, w50 h20 x100 y100 gMathLettersY, Y
 Gui, Add, Button, w50 h20 x100 y120 gMathLettersZ, Z
-Gui, Add, Button, w50 h20 x100 y140 gMathLetters, Toggle Cap
+Gui, Add, Button, w50 h20 x100 y140 gMathLettersCAP, Toggle Cap
 Gui, Show, w150 h220 Center, bald
 Return
 
@@ -1015,6 +1018,7 @@ Return
 
 MathLettersCAP:
 Gui 5: Destroy
+Gui 24: Destroy
 Gui 23: Default
 Gui, Add, Button, W50 H20 x0 y0 gTimetable, Timetable
 Gui, Add, Button, Default w50 H20 x50 y0 gTextBoxMath, GO BACK!
@@ -1034,7 +1038,7 @@ Gui, Add, Button, w50 h20 x50 y40 gMathLettersLCAP, L
 Gui, Add, Button, w50 h20 x50 y60 gMathLettersMCAP, M
 Gui, Add, Button, w50 h20 x50 y80 gMathLettersNCAP, N
 Gui, Add, Button, w50 h20 x50 y100 gMathLettersOCAP, O
-Gui, Add, Button, w50 h20 x50 y120 gMathLettersCAPP, P
+Gui, Add, Button, w50 h20 x50 y120 gMathLettersPCAP, P
 Gui, Add, Button, w50 h20 x50 y140 gMathLettersQCAP, Q
 Gui, Add, Button, w50 h20 x50 y160 gMathLettersRCAP, R
 Gui, Add, Button, w50 h20 x50 y180 gMathLettersSCAP, S
@@ -1046,7 +1050,7 @@ Gui, Add, Button, w50 h20 x100 y60 gMathLettersWCAP, W
 Gui, Add, Button, w50 h20 x100 y80 gMathLettersXCAP, X
 Gui, Add, Button, w50 h20 x100 y100 gMathLettersYCAP, Y
 Gui, Add, Button, w50 h20 x100 y120 gMathLettersZCAP, Z
-Gui, Add, Button, w50 h20 x100 y140 gNONCAP, Toggle Cap
+Gui, Add, Button, w50 h20 x100 y140 gMathLetters, Toggle Cap
 Gui, Show, w150 h220 Center, bald
 Return
 
