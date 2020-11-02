@@ -522,20 +522,20 @@ Gui, Show, w100 h260 Center, bald
 Return
 
 MathLetters:
-Gui 23: Destroy
+Gui 5: Destroy
 Gui 24: Default
 Gui, Add, Button, W50 H20 x0 y0 gTimetable, Timetable
 Gui, Add, Button, Default w50 H20 x50 y0 gTextBoxMath, GO BACK!
-Gui, Add, Button, w50 h20 x0 y20 gMathLettersA, A
-Gui, Add, Button, w50 h20 x0 y40 gMathLettersB, B
-Gui, Add, Button, w50 h20 x0 y60 gMathLettersC, C 
-Gui, Add, Button, w50 h20 x0 y80 gMathLettersD, D 
-Gui, Add, Button, w50 h20 x0 y100 gMathLettersE, E 
-Gui, Add, Button, w50 h20 x0 y120 gMathLettersF, F 
-Gui, Add, Button, w50 h20 x0 y140 gMathLettersG, G 
-Gui, Add, Button, w50 h20 x0 y160 gMathLettersH, H 
-Gui, Add, Button, w50 h20 x0 y180 gMathLettersI, I 
-Gui, Add, Button, w50 h20 x0 y200 gMathLettersJ, J 
+Gui, Add, Button, w50 h20 x0 y20 gMathLettersa, a
+Gui, Add, Button, w50 h20 x0 y40 gMathLettersb, b
+Gui, Add, Button, w50 h20 x0 y60 gMathLettersc, c 
+Gui, Add, Button, w50 h20 x0 y80 gMathLettersd, d 
+Gui, Add, Button, w50 h20 x0 y100 gMathLetterse, e 
+Gui, Add, Button, w50 h20 x0 y120 gMathLettersf, f 
+Gui, Add, Button, w50 h20 x0 y140 gMathLettersg, g 
+Gui, Add, Button, w50 h20 x0 y160 gMathLettersh, h 
+Gui, Add, Button, w50 h20 x0 y180 gMathLettersi, i 
+Gui, Add, Button, w50 h20 x0 y200 gMathLettersj, j 
 ;new part
 Gui, Add, Button, w50 h20 x50 y20 gMathLettersK, K 
 Gui, Add, Button, w50 h20 x50 y40 gMathLettersL, L
@@ -560,457 +560,457 @@ Return
 
 MathLettersA:
 Gui 24: Destroy
-Send, A         
+Send, A{Tab}
 Return
 
 MathLettersB:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
 Return
 
 MathLettersC:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
 Return
 
 MathLettersD:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
 Return
 
 MathLettersE:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
 Return
 
 MathLettersF:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
+Send, f{Tab}{Return}
 Return
 
 MathLettersG:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
+Send, f{Tab}{Return}
+Send, g{Tab}{Return}
 Return
 
 MathLettersH:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
+Send, f{Tab}{Return}
+Send, g{Tab}{Return}
+Send, h{Tab}{Return}
 Return
 
 MathLettersI:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
+Send, f{Tab}{Return}
+Send, g{Tab}{Return}
+Send, h{Tab}{Return}
+Send, i{Tab}{Return}
 Return
 
-MathLettersJv:
+MathLettersJ:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
+Send, f{Tab}{Return}
+Send, g{Tab}{Return}
+Send, h{Tab}{Return}
+Send, i{Tab}{Return}
+Send, j{Tab}{Return}
 Return
 
 MathLettersK:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
+Send, f{Tab}{Return}
+Send, g{Tab}{Return}
+Send, h{Tab}{Return}
+Send, i{Tab}{Return}
+Send, j{Tab}{Return}
+Send, k{Tab}{Return}
 Return
 
 MathLettersL:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
+Send, f{Tab}{Return}
+Send, g{Tab}{Return}
+Send, h{Tab}{Return}
+Send, i{Tab}{Return}
+Send, j{Tab}{Return}
+Send, k{Tab}{Return}
+Send, l{Tab}{Return}
 Return
 
 MathLettersM:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
+Send, f{Tab}{Return}
+Send, g{Tab}{Return}
+Send, h{Tab}{Return}
+Send, i{Tab}{Return}
+Send, j{Tab}{Return}
+Send, k{Tab}{Return}
+Send, l{Tab}{Return}
+Send, m{Tab}{Return}
 Return
 
 MathLettersN:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
+Send, f{Tab}{Return}
+Send, g{Tab}{Return}
+Send, h{Tab}{Return}
+Send, i{Tab}{Return}
+Send, j{Tab}{Return}
+Send, k{Tab}{Return}
+Send, l{Tab}{Return}
+Send, m{Tab}{Return}
+Send, n{Tab}{Return}
 Return
 
 MathLettersO:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
+Send, f{Tab}{Return}
+Send, g{Tab}{Return}
+Send, h{Tab}{Return}
+Send, i{Tab}{Return}
+Send, j{Tab}{Return}
+Send, k{Tab}{Return}
+Send, l{Tab}{Return}
+Send, m{Tab}{Return}
+Send, n{Tab}{Return}
+Send, o{Tab}{Return}
 Return
 
 MathLettersP:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
+Send, f{Tab}{Return}
+Send, g{Tab}{Return}
+Send, h{Tab}{Return}
+Send, i{Tab}{Return}
+Send, j{Tab}{Return}
+Send, k{Tab}{Return}
+Send, l{Tab}{Return}
+Send, m{Tab}{Return}
+Send, n{Tab}{Return}
+Send, o{Tab}{Return}
+Send, p{Tab}{Return}
 Return
 
 MathLettersQ:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
-Send, Q         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
+Send, f{Tab}{Return}
+Send, g{Tab}{Return}
+Send, h{Tab}{Return}
+Send, i{Tab}{Return}
+Send, j{Tab}{Return}
+Send, k{Tab}{Return}
+Send, l{Tab}{Return}
+Send, m{Tab}{Return}
+Send, n{Tab}{Return}
+Send, o{Tab}{Return}
+Send, p{Tab}{Return}
+Send, q{Tab}{Return}
 Return
 
 MathLettersR:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
-Send, Q         {Return}
-Send, R         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
+Send, f{Tab}{Return}
+Send, g{Tab}{Return}
+Send, h{Tab}{Return}
+Send, i{Tab}{Return}
+Send, j{Tab}{Return}
+Send, k{Tab}{Return}
+Send, l{Tab}{Return}
+Send, m{Tab}{Return}
+Send, n{Tab}{Return}
+Send, o{Tab}{Return}
+Send, p{Tab}{Return}
+Send, q{Tab}{Return}
+Send, r{Tab}{Return}
 Return
 
 MathLettersS:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
-Send, Q         {Return}
-Send, R         {Return}
-Send, S         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
+Send, f{Tab}{Return}
+Send, g{Tab}{Return}
+Send, h{Tab}{Return}
+Send, i{Tab}{Return}
+Send, j{Tab}{Return}
+Send, k{Tab}{Return}
+Send, l{Tab}{Return}
+Send, m{Tab}{Return}
+Send, n{Tab}{Return}
+Send, o{Tab}{Return}
+Send, p{Tab}{Return}
+Send, q{Tab}{Return}
+Send, r{Tab}{Return}
+Send, s{Tab}{Return}
 Return
 
 MathLettersT:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
-Send, Q         {Return}
-Send, R         {Return}
-Send, S         {Return}
-Send, T         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
+Send, f{Tab}{Return}
+Send, g{Tab}{Return}
+Send, h{Tab}{Return}
+Send, i{Tab}{Return}
+Send, j{Tab}{Return}
+Send, k{Tab}{Return}
+Send, l{Tab}{Return}
+Send, m{Tab}{Return}
+Send, n{Tab}{Return}
+Send, o{Tab}{Return}
+Send, p{Tab}{Return}
+Send, q{Tab}{Return}
+Send, r{Tab}{Return}
+Send, s{Tab}{Return}
+Send, t{Tab}{Return}
 Return
 
 MathLettersU:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
-Send, Q         {Return}
-Send, R         {Return}
-Send, S         {Return}
-Send, T         {Return}
-Send, U         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
+Send, f{Tab}{Return}
+Send, g{Tab}{Return}
+Send, h{Tab}{Return}
+Send, i{Tab}{Return}
+Send, j{Tab}{Return}
+Send, k{Tab}{Return}
+Send, l{Tab}{Return}
+Send, m{Tab}{Return}
+Send, n{Tab}{Return}
+Send, o{Tab}{Return}
+Send, p{Tab}{Return}
+Send, q{Tab}{Return}
+Send, r{Tab}{Return}
+Send, s{Tab}{Return}
+Send, t{Tab}{Return}
+Send, u{Tab}{Return}
 Return
 
 MathLettersV:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
-Send, Q         {Return}
-Send, R         {Return}
-Send, S         {Return}
-Send, T         {Return}
-Send, U         {Return}
-Send, V         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
+Send, f{Tab}{Return}
+Send, g{Tab}{Return}
+Send, h{Tab}{Return}
+Send, i{Tab}{Return}
+Send, j{Tab}{Return}
+Send, k{Tab}{Return}
+Send, l{Tab}{Return}
+Send, m{Tab}{Return}
+Send, n{Tab}{Return}
+Send, o{Tab}{Return}
+Send, p{Tab}{Return}
+Send, q{Tab}{Return}
+Send, r{Tab}{Return}
+Send, s{Tab}{Return}
+Send, t{Tab}{Return}
+Send, u{Tab}{Return}
+Send, v{Tab}{Return}
 Return
 
 MathLettersW:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
-Send, Q         {Return}
-Send, R         {Return}
-Send, S         {Return}
-Send, T         {Return}
-Send, U         {Return}
-Send, V         {Return}
-Send, W         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
+Send, f{Tab}{Return}
+Send, g{Tab}{Return}
+Send, h{Tab}{Return}
+Send, i{Tab}{Return}
+Send, j{Tab}{Return}
+Send, k{Tab}{Return}
+Send, l{Tab}{Return}
+Send, m{Tab}{Return}
+Send, n{Tab}{Return}
+Send, o{Tab}{Return}
+Send, p{Tab}{Return}
+Send, q{Tab}{Return}
+Send, r{Tab}{Return}
+Send, s{Tab}{Return}
+Send, t{Tab}{Return}
+Send, u{Tab}{Return}
+Send, v{Tab}{Return}
+Send, w{Tab}{Return}
 Return
 
 MathLettersX:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
-Send, Q         {Return}
-Send, R         {Return}
-Send, S         {Return}
-Send, T         {Return}
-Send, U         {Return}
-Send, V         {Return}
-Send, W         {Return}
-Send, X         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
+Send, f{Tab}{Return}
+Send, g{Tab}{Return}
+Send, h{Tab}{Return}
+Send, i{Tab}{Return}
+Send, j{Tab}{Return}
+Send, k{Tab}{Return}
+Send, l{Tab}{Return}
+Send, m{Tab}{Return}
+Send, n{Tab}{Return}
+Send, o{Tab}{Return}
+Send, p{Tab}{Return}
+Send, q{Tab}{Return}
+Send, r{Tab}{Return}
+Send, s{Tab}{Return}
+Send, t{Tab}{Return}
+Send, u{Tab}{Return}
+Send, v{Tab}{Return}
+Send, w{Tab}{Return}
+Send, x{Tab}{Return}
 Return
 
 MathLettersY:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
-Send, Q         {Return}
-Send, R         {Return}
-Send, S         {Return}
-Send, T         {Return}
-Send, U         {Return}
-Send, V         {Return}
-Send, W         {Return}
-Send, x         {Return}
-Send, Y         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
+Send, f{Tab}{Return}
+Send, g{Tab}{Return}
+Send, h{Tab}{Return}
+Send, i{Tab}{Return}
+Send, j{Tab}{Return}
+Send, k{Tab}{Return}
+Send, l{Tab}{Return}
+Send, m{Tab}{Return}
+Send, n{Tab}{Return}
+Send, o{Tab}{Return}
+Send, p{Tab}{Return}
+Send, q{Tab}{Return}
+Send, r{Tab}{Return}
+Send, s{Tab}{Return}
+Send, t{Tab}{Return}
+Send, u{Tab}{Return}
+Send, v{Tab}{Return}
+Send, w{Tab}{Return}
+Send, x{Tab}{Return}
+Send, y{Tab}{Return}
 Return
 
 MathLettersZ:
 Gui 24: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
-Send, Q         {Return}
-Send, R         {Return}
-Send, S         {Return}
-Send, T         {Return}
-Send, U         {Return}
-Send, V         {Return}
-Send, W         {Return}
-Send, x         {Return}
-Send, y         {Return}
-Send, z         {Return}
+Send, a{Tab}{Return}
+Send, b{Tab}{Return}
+Send, c{Tab}{Return}
+Send, d{Tab}{Return}
+Send, e{Tab}{Return}
+Send, f{Tab}{Return}
+Send, g{Tab}{Return}
+Send, h{Tab}{Return}
+Send, i{Tab}{Return}
+Send, j{Tab}{Return}
+Send, k{Tab}{Return}
+Send, l{Tab}{Return}
+Send, m{Tab}{Return}
+Send, n{Tab}{Return}
+Send, o{Tab}{Return}
+Send, p{Tab}{Return}
+Send, q{Tab}{Return}
+Send, r{Tab}{Return}
+Send, s{Tab}{Return}
+Send, t{Tab}{Return}
+Send, u{Tab}{Return}
+Send, v{Tab}{Return}
+Send, w{Tab}{Return}
+Send, x{Tab}{Return}
+Send, y{Tab}{Return}
+Send, z{Tab}{Return}
 Return
 
 MathLettersCAP:
@@ -1052,457 +1052,457 @@ Return
 
 MathLettersACAP:
 Gui 23: Destroy
-Send, A         
+Send, A{Tab}
 Return
 
 MathLettersBCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
 Return
 
 MathLettersCCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
 Return
 
 MathLettersDCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
 Return
 
 MathLettersECAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
 Return
 
 MathLettersFCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
+Send, F{Tab}{Return}
 Return
 
 MathLettersGCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
+Send, F{Tab}{Return}
+Send, G{Tab}{Return}
 Return
 
 MathLettersHCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
+Send, F{Tab}{Return}
+Send, G{Tab}{Return}
+Send, H{Tab}{Return}
 Return
 
 MathLettersICAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
+Send, F{Tab}{Return}
+Send, G{Tab}{Return}
+Send, H{Tab}{Return}
+Send, I{Tab}{Return}
 Return
 
-MathLettersJ:
+MathLettersJCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
+Send, F{Tab}{Return}
+Send, G{Tab}{Return}
+Send, H{Tab}{Return}
+Send, I{Tab}{Return}
+Send, J{Tab}{Return}
 Return
 
 MathLettersKCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
+Send, F{Tab}{Return}
+Send, G{Tab}{Return}
+Send, H{Tab}{Return}
+Send, I{Tab}{Return}
+Send, J{Tab}{Return}
+Send, K{Tab}{Return}
 Return
 
 MathLettersLCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
+Send, F{Tab}{Return}
+Send, G{Tab}{Return}
+Send, H{Tab}{Return}
+Send, I{Tab}{Return}
+Send, J{Tab}{Return}
+Send, K{Tab}{Return}
+Send, L{Tab}{Return}
 Return
 
 MathLettersMCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
+Send, F{Tab}{Return}
+Send, G{Tab}{Return}
+Send, H{Tab}{Return}
+Send, I{Tab}{Return}
+Send, J{Tab}{Return}
+Send, K{Tab}{Return}
+Send, L{Tab}{Return}
+Send, M{Tab}{Return}
 Return
 
 MathLettersNCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
+Send, F{Tab}{Return}
+Send, G{Tab}{Return}
+Send, H{Tab}{Return}
+Send, I{Tab}{Return}
+Send, J{Tab}{Return}
+Send, K{Tab}{Return}
+Send, L{Tab}{Return}
+Send, M{Tab}{Return}
+Send, N{Tab}{Return}
 Return
 
 MathLettersOCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
+Send, F{Tab}{Return}
+Send, G{Tab}{Return}
+Send, H{Tab}{Return}
+Send, I{Tab}{Return}
+Send, J{Tab}{Return}
+Send, K{Tab}{Return}
+Send, L{Tab}{Return}
+Send, M{Tab}{Return}
+Send, N{Tab}{Return}
+Send, O{Tab}{Return}
 Return
 
 MathLettersPCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
+Send, F{Tab}{Return}
+Send, G{Tab}{Return}
+Send, H{Tab}{Return}
+Send, I{Tab}{Return}
+Send, J{Tab}{Return}
+Send, K{Tab}{Return}
+Send, L{Tab}{Return}
+Send, M{Tab}{Return}
+Send, N{Tab}{Return}
+Send, O{Tab}{Return}
+Send, P{Tab}{Return}
 Return
 
 MathLettersQCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
-Send, Q         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
+Send, F{Tab}{Return}
+Send, G{Tab}{Return}
+Send, H{Tab}{Return}
+Send, I{Tab}{Return}
+Send, J{Tab}{Return}
+Send, K{Tab}{Return}
+Send, L{Tab}{Return}
+Send, M{Tab}{Return}
+Send, N{Tab}{Return}
+Send, O{Tab}{Return}
+Send, P{Tab}{Return}
+Send, Q{Tab}{Return}
 Return
 
 MathLettersRCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
-Send, Q         {Return}
-Send, R         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
+Send, F{Tab}{Return}
+Send, G{Tab}{Return}
+Send, H{Tab}{Return}
+Send, I{Tab}{Return}
+Send, J{Tab}{Return}
+Send, K{Tab}{Return}
+Send, L{Tab}{Return}
+Send, M{Tab}{Return}
+Send, N{Tab}{Return}
+Send, O{Tab}{Return}
+Send, P{Tab}{Return}
+Send, Q{Tab}{Return}
+Send, R{Tab}{Return}
 Return
 
 MathLettersSCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
-Send, Q         {Return}
-Send, R         {Return}
-Send, S         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
+Send, F{Tab}{Return}
+Send, G{Tab}{Return}
+Send, H{Tab}{Return}
+Send, I{Tab}{Return}
+Send, J{Tab}{Return}
+Send, K{Tab}{Return}
+Send, L{Tab}{Return}
+Send, M{Tab}{Return}
+Send, N{Tab}{Return}
+Send, O{Tab}{Return}
+Send, P{Tab}{Return}
+Send, Q{Tab}{Return}
+Send, R{Tab}{Return}
+Send, S{Tab}{Return}
 Return
 
 MathLettersTCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
-Send, Q         {Return}
-Send, R         {Return}
-Send, S         {Return}
-Send, T         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
+Send, F{Tab}{Return}
+Send, G{Tab}{Return}
+Send, H{Tab}{Return}
+Send, I{Tab}{Return}
+Send, J{Tab}{Return}
+Send, K{Tab}{Return}
+Send, L{Tab}{Return}
+Send, M{Tab}{Return}
+Send, N{Tab}{Return}
+Send, O{Tab}{Return}
+Send, P{Tab}{Return}
+Send, Q{Tab}{Return}
+Send, R{Tab}{Return}
+Send, S{Tab}{Return}
+Send, T{Tab}{Return}
 Return
 
 MathLettersUCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
-Send, Q         {Return}
-Send, R         {Return}
-Send, S         {Return}
-Send, T         {Return}
-Send, U         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
+Send, F{Tab}{Return}
+Send, G{Tab}{Return}
+Send, H{Tab}{Return}
+Send, I{Tab}{Return}
+Send, J{Tab}{Return}
+Send, K{Tab}{Return}
+Send, L{Tab}{Return}
+Send, M{Tab}{Return}
+Send, N{Tab}{Return}
+Send, O{Tab}{Return}
+Send, P{Tab}{Return}
+Send, Q{Tab}{Return}
+Send, R{Tab}{Return}
+Send, S{Tab}{Return}
+Send, T{Tab}{Return}
+Send, U{Tab}{Return}
 Return
 
 MathLettersVCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
-Send, Q         {Return}
-Send, R         {Return}
-Send, S         {Return}
-Send, T         {Return}
-Send, U         {Return}
-Send, V         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
+Send, F{Tab}{Return}
+Send, G{Tab}{Return}
+Send, H{Tab}{Return}
+Send, I{Tab}{Return}
+Send, J{Tab}{Return}
+Send, K{Tab}{Return}
+Send, L{Tab}{Return}
+Send, M{Tab}{Return}
+Send, N{Tab}{Return}
+Send, O{Tab}{Return}
+Send, P{Tab}{Return}
+Send, Q{Tab}{Return}
+Send, R{Tab}{Return}
+Send, S{Tab}{Return}
+Send, T{Tab}{Return}
+Send, U{Tab}{Return}
+Send, V{Tab}{Return}
 Return
 
 MathLettersWCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
-Send, Q         {Return}
-Send, R         {Return}
-Send, S         {Return}
-Send, T         {Return}
-Send, U         {Return}
-Send, V         {Return}
-Send, W         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
+Send, F{Tab}{Return}
+Send, G{Tab}{Return}
+Send, H{Tab}{Return}
+Send, I{Tab}{Return}
+Send, J{Tab}{Return}
+Send, K{Tab}{Return}
+Send, L{Tab}{Return}
+Send, M{Tab}{Return}
+Send, N{Tab}{Return}
+Send, O{Tab}{Return}
+Send, P{Tab}{Return}
+Send, Q{Tab}{Return}
+Send, R{Tab}{Return}
+Send, S{Tab}{Return}
+Send, T{Tab}{Return}
+Send, U{Tab}{Return}
+Send, V{Tab}{Return}
+Send, W{Tab}{Return}
 Return
 
 MathLettersXCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
-Send, Q         {Return}
-Send, R         {Return}
-Send, S         {Return}
-Send, T         {Return}
-Send, U         {Return}
-Send, V         {Return}
-Send, W         {Return}
-Send, X         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
+Send, F{Tab}{Return}
+Send, G{Tab}{Return}
+Send, H{Tab}{Return}
+Send, I{Tab}{Return}
+Send, J{Tab}{Return}
+Send, K{Tab}{Return}
+Send, L{Tab}{Return}
+Send, M{Tab}{Return}
+Send, N{Tab}{Return}
+Send, O{Tab}{Return}
+Send, P{Tab}{Return}
+Send, Q{Tab}{Return}
+Send, R{Tab}{Return}
+Send, S{Tab}{Return}
+Send, T{Tab}{Return}
+Send, U{Tab}{Return}
+Send, V{Tab}{Return}
+Send, W{Tab}{Return}
+Send, X{Tab}{Return}
 Return
 
 MathLettersYCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
-Send, Q         {Return}
-Send, R         {Return}
-Send, S         {Return}
-Send, T         {Return}
-Send, U         {Return}
-Send, V         {Return}
-Send, W         {Return}
-Send, X         {Return}
-Send, Y         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
+Send, F{Tab}{Return}
+Send, G{Tab}{Return}
+Send, H{Tab}{Return}
+Send, I{Tab}{Return}
+Send, J{Tab}{Return}
+Send, K{Tab}{Return}
+Send, L{Tab}{Return}
+Send, M{Tab}{Return}
+Send, N{Tab}{Return}
+Send, O{Tab}{Return}
+Send, P{Tab}{Return}
+Send, Q{Tab}{Return}
+Send, R{Tab}{Return}
+Send, S{Tab}{Return}
+Send, T{Tab}{Return}
+Send, U{Tab}{Return}
+Send, V{Tab}{Return}
+Send, W{Tab}{Return}
+Send, X{Tab}{Return}
+Send, Y{Tab}{Return}
 Return
 
 MathLettersZCAP:
 Gui 23: Destroy
-Send, A         {Return}
-Send, B         {Return}
-Send, C         {Return}
-Send, D         {Return}
-Send, E         {Return}
-Send, F         {Return}
-Send, G         {Return}
-Send, H         {Return}
-Send, I         {Return}
-Send, J         {Return}
-Send, K         {Return}
-Send, L         {Return}
-Send, M         {Return}
-Send, N         {Return}
-Send, O         {Return}
-Send, P         {Return}
-Send, Q         {Return}
-Send, R         {Return}
-Send, S         {Return}
-Send, T         {Return}
-Send, U         {Return}
-Send, V         {Return}
-Send, W         {Return}
-Send, X         {Return}
-Send, Y         {Return}
-Send, Z         {Return}
+Send, A{Tab}{Return}
+Send, B{Tab}{Return}
+Send, C{Tab}{Return}
+Send, D{Tab}{Return}
+Send, E{Tab}{Return}
+Send, F{Tab}{Return}
+Send, G{Tab}{Return}
+Send, H{Tab}{Return}
+Send, I{Tab}{Return}
+Send, J{Tab}{Return}
+Send, K{Tab}{Return}
+Send, L{Tab}{Return}
+Send, M{Tab}{Return}
+Send, N{Tab}{Return}
+Send, O{Tab}{Return}
+Send, P{Tab}{Return}
+Send, Q{Tab}{Return}
+Send, R{Tab}{Return}
+Send, S{Tab}{Return}
+Send, T{Tab}{Return}
+Send, U{Tab}{Return}
+Send, V{Tab}{Return}
+Send, W{Tab}{Return}
+Send, X{Tab}{Return}
+Send, Y{Tab}{Return}
+Send, Z{Tab}{Return}
 Return
 
 MathsChapterAnswers:
