@@ -1,3 +1,6 @@
+#SingleInstance, Force
+#NoEnv
+#NoTrayIcon
 
 GUI:
 Gui 1: Default
@@ -121,7 +124,7 @@ Gui, Add, Button, Default w100 h20 x0 y20 gSoundboard, Soundboard
 Gui, Add, Button, Default w100 h20 x0 y40 gScripts, Scrpits
 Gui, Add, Button, Default w100 h20 x0 y60 gVol, Vol
 Gui, Add, Button, Default w100 h20 x0 y80 gBIn, Empty Bin
-Gui, Add, Button, Default w100 h20 x0 y100 gTimer, Daily Timer
+Gui, Add, Button, Default w100 h20 x     y100 gTimer, Daily Timer
 Gui, Add, Button, Default w100 h20 x0 y120 gGames, Games
 Gui, Add, Button, Default w100 h20 x0 y140 gQuickSerch, Quick Serch
 Gui, Add, Button, Default w100 h20 x0 y160 gMathLetters, Math letters
