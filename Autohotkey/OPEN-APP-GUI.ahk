@@ -45,9 +45,8 @@ Gui, Add, Button, Default w50 h20 x50 y0 gGUI, GO BACK!
 Gui, Add, Button, Default w100 h20 x0 y20 gRPS, RPS
 Gui, Add, Button, Default w100 h20 x0 y40 gPokemon, Pokemon
 Gui, Add, Button, Default w100 h20 x0 y60 gAmong, Among US
-Gui, Add, Button, Default w100 h20 x0 y80, gSteam, Steam
-Gui, Add, Button, Default w100 h20 x0 y100,
-Gui, Show, w100 h120
+Gui, Add, Button, Default w100 h20 x0 y80 gSteam, Steam
+Gui, Show, w100 h100
 Return
 
 RPS:
@@ -118,7 +117,7 @@ Gui, Add, Button, Default w100 h20 x0 y20 gSoundboard, Soundboard
 Gui, Add, Button, Default w100 h20 x0 y40 gScripts, Scrpits
 Gui, Add, Button, Default w100 h20 x0 y60 gVol, Vol
 Gui, Add, Button, Default w100 h20 x0 y80 gBIn, Empty Bin
-Gui, Add, Button, Default w100 h20 x     y100 gTimer, Daily Timer
+Gui, Add, Button, Default w100 h20 x0 y100 gTimer, Daily Timer
 Gui, Add, Button, Default w100 h20 x0 y120 gGames, Games
 Gui, Add, Button, Default w100 h20 x0 y140 gQuickSerch, Quick Serch
 Gui, Add, Button, Default w100 h20 x0 y160 gMathLetters, Math letters
