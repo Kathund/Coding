@@ -246,22 +246,8 @@ Return
 Screenshot:
 Gui 1: Destroy
 Sleep, 200
-Send, #{PrintScreen}
+Send, {PrintScreen}
 Sleep, 500
-Gui 17: Default
-Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
-Gui, Add, Button, Default w50 h20 x50 y0 gGUI, GO BACK!
-Gui, Add, Button, Default w100 h20 x0 y20 gOpen, Open Photo
-Gui, Show, w100 h40 Center, Screenshot
-Return
-
-Open: 
-Gui 17: Destroy
-Run, C:\Users\crbra\OneDrive\Pictures\Screenshots
-Sleep, 1750
-WinMaximize, Screenshots
-Sleep, 750
-MouseClick, Left, 500, 350, 2, 0,
 Return
 
 Exit:
@@ -278,7 +264,7 @@ Gui, Show, w100 h40 Center, Humanities
 Return
 
 SeqtaHumanities:
-Run, https://student.kennedy.wa.edu.au/#?page=/courses/4936:21763
+Run, https://student.kennedy.wa.edu.au/#?page=/courses/5426:24302
 Return
 
 Vol:
@@ -477,7 +463,7 @@ Return
 
 SeqtaScience:
 Gui 3: Destroy
-Run, https://student.kennedy.wa.edu.au/#?page=/courses/4627:21820
+Run, https://student.kennedy.wa.edu.au/#?page=/courses/5496:24370
 Return
 
 PowerPointScience:
@@ -1028,62 +1014,62 @@ Return
 
 MathsChapterAnswers:
 Gui 5: Destroy
-Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year8\Mathematics\8 Essential Mathematics Version 2\Answers.pdf
+Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year9\Mathematics\9 Essential Mathematics Version 2\Answers.pdf
 Return
 
 MathsChapter1:
 Gui 5: Destroy
-Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year8\Mathematics\8 Essential Mathematics Version 2\Chapter-1-Integers.pdf
+Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year9\Mathematics\9 Essential Mathematics Version 2\Chapter 1 Reviewing number and financial mathematics.pdf
 Return
 
 MathsChapter2:
 Gui 5: Destroy
-Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year8\Mathematics\8 Essential Mathematics Version 2\Chapter-2-Lines-shapes-and-solids.pdf
+Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year9\Mathematics\9 Essential Mathematics Version 2\Chapter 2 Linear and Simultaneous.pdf
 Return
 
 MathsChapter3:
 Gui 5: Destroy
-Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year8\Mathematics\8 Essential Mathematics Version 2\Chapter-3-Fractions-decimals-and-percentages.pdf
+Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year9\Mathematics\9 Essential Mathematics Version 2\Chapter 3 Pythagoras Theorem and Trig.pdf  
 Return
 
 MathsChapter4:
 Gui 5: Destroy
-Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year8\Mathematics\8 Essential Mathematics Version 2\Chapter-4-Measurement-and-introduction-to-Pythagoras-theorem.pdf
+Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year9\Mathematics\9 Essential Mathematics Version 2\Chapter 4 Linear Equations.pdf
 Return
 
 MathsChapter5:
 Gui 5: Destroy
-Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year8\Mathematics\8 Essential Mathematics Version 2\Chapter-5-Algebra.pdf
+Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year9\Mathematics\9 Essential Mathematics Version 2\Chapter 5 Measurement.pdf
 Return
 
 MathsChapter6:
 Gui 5: Destroy
-Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year8\Mathematics\8 Essential Mathematics Version 2\Chapter-6-Ratios-and-rates.pdf
+Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year9\Mathematics\9 Essential Mathematics Version 2\Chapter 6 Indicies and Surds.pdf
 Return
 
 MathsChapter7:
 Gui 5: Destroy
-Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year8\Mathematics\8 Essential Mathematics Version 2\Chapter-7-Equations and inequalities.pdf
+Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year9\Mathematics\9 Essential Mathematics Version 2\Chapter 7 Geometry.pdf
 Return
 
 MathsChapter8:
 Gui 5: Destroy
-Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year8\Mathematics\8 Essential Mathematics Version 2\Chapter-8-Probability and statistics.pdf
+Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year9\Mathematics\9 Essential Mathematics Version 2\Chapter 8 Algebraic techniques.pdf
 Return
 
 MathsChapter9:
 Gui 5: Destroy
-Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year8\Mathematics\8 Essential Mathematics Version 2\Chapter-9-Straight line graphs.pdf
+Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year9\Mathematics\9 Essential Mathematics Version 2\Chapter 9 Probability and Statistics.pdf
 Return
 
 MathsChapter10:
 Gui 5: Destroy
-Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year8\Mathematics\8 Essential Mathematics Version 2\Chapter-10-Transformation-and-congruence.pdf
+Run, \\curric.kennedy.wa.edu.au\student\YDrive\Allsubjects\Year9\Mathematics\9 Essential Mathematics Version 2\Chapter 10 Quadatic Equations.pdf
 Return
 
 SeqtaMath:
 Gui 4: Destroy
-Run, https://student.kennedy.wa.edu.au/#?page=/courses/4685:21793
+Run, https://student.kennedy.wa.edu.au/#?page=/courses/5209:24327
 Return
 
 English:
