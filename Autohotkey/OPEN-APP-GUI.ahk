@@ -43,8 +43,8 @@ Gui 2: Default
 Gui, Add, Button, w50 h20 x0 y0 gTimetable, Timetable
 Gui, Add, Button, Default w50 h20 x50 y0 gGUI, GO BACK!
 Gui, Add, Button, Default w100 h20 x0 y20 gRPS, RPS
-Gui, Add, Button, Default w100 h20 x0 y40 gPokemon, Pokemon
-Gui, Add, Button, Default w100 h20 x0 y60 gAmong, Among US
+Gui, Add, Button, Default w100 h20 x0 y40 gFlip, Flip-Coin
+Gui, Add, Button, Default w100 h20 x0 y60 gSnake, Snake
 Gui, Add, Button, Default w100 h20 x0 y80 gSteam, Steam
 Gui, Show, w100 h100
 Return
@@ -54,14 +54,26 @@ Gui 2: Destroy
 Run, C:\Users\crbra\OneDrive\Desktop\Not School\GIthub\Coding\Autohotkey\Rock-paper-scissors-game.ahk
 Return
 
-Pokemon:
+Flip:
 Gui 2: Destroy
-Run, C:\Users\crbra\OneDrive\Desktop\VM - Gameboy.lnk
+{
+Random, Coin, 1, 2
+If Coin = 1
+{
+Coin:="Heads!"
+}
+If Coin = 2
+{
+Coin:="Tails!"
+}
+sleep, 100
+MsgBox, %Coin%
 Return
+}
 
-Among:
+Snake:
 Gui 2: Destroy
-Run, C:\Program Files (x86)\Steam\steamapps\common\Among Us\Among Us.exe
+Run, C:\Users\crbra\OneDrive\Desktop\Not School\GIthub\Coding\Autohotkey\SNAKE.ahk
 Return                                                                                                                                                                                                                                                  
 
 Steam:
@@ -458,7 +470,7 @@ Return
 
 BookScience:
 Gui 3: Destroy
-Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\Science\Booklet.docx
+Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\2021\science\2021 Plate Tectonics Booklet EXT ADV GEN.docx
 Return
 
 SeqtaScience:
@@ -468,7 +480,7 @@ Return
 
 PowerPointScience:
 Gui 3: Destroy
-Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\Science\PowerPoint.pptx
+Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\2021\science\PPT Plate Tectonics EXT ADV GEN.pptx
 Return
 
 Maths:
