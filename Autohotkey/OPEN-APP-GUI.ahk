@@ -372,13 +372,13 @@ Gui 12: Default
 Gui 7: Destroy
 Gui, Add, Button, Default w160 h20 x0 y0 gTimetable, GO BACK! 
 Gui, Add, Button, Default w160 h20 x0 y20, Form 8:15 - 8:30
-Gui, Add, Button, Default w160 h20 x0 y40, Christen Education 8:30 - 9:20
-Gui, Add, Button, Default w160 h20 x0 y60, English 9:20 - 10:10
-Gui, Add, Button, Default w160 h20 x0 y80, Humanities 10:10 - 11:00
-Gui, Add, Button, Default w160 h20 x0 y100, Math 11:30 - 12:20
-Gui, Add, Button, Default w160 h20 x0 y120, English 12:20 - 13:05
-Gui, Add, Button, Default w160 h20 x0 y140, Science 13:40 - 14:25
-Gui, Add, Button, Default w160 h20 x0 y160, Humanities 14:25 - 15:15
+Gui, Add, Button, Default w160 h20 x0 y40, Humanities 8:30 - 9:20
+Gui, Add, Button, Default w160 h20 x0 y60, Photography 9:20 - 10:10
+Gui, Add, Button, Default w160 h20 x0 y80, Photography 10:10 - 11:00
+Gui, Add, Button, Default w160 h20 x0 y100, PE 11:30 - 12:20
+Gui, Add, Button, Default w160 h20 x0 y120, PE 12:20 - 13:05
+Gui, Add, Button, Default w160 h20 x0 y140, English 13:40 - 14:25
+Gui, Add, Button, Default w160 h20 x0 y160, Maths 14:25 - 15:15
 Gui, Show, w160 h180 
 Return
 
@@ -387,13 +387,13 @@ Gui 11: Default
 Gui 7: Destroy
 Gui, Add, Button, Default w160 h20 x0 y0 gTimetable, GO BACK! 
 Gui, Add, Button, Default w160 h20 x0 y20, Form 8:15 - 8:30
-Gui, Add, Button, Default w160 h20 x0 y40, Math 8:30 - 9:20
+Gui, Add, Button, Default w160 h20 x0 y40, Humanities 8:30 - 9:20
 Gui, Add, Button, Default w160 h20 x0 y60, Health 9:20 - 10:10
 Gui, Add, Button, Default w160 h20 x0 y80, English 10:10 - 11:00
-Gui, Add, Button, Default w160 h20 x0 y100, Drama 11:30 - 12:20
-Gui, Add, Button, Default w160 h20 x0 y120, Drama 12:20 - 13:05
-Gui, Add, Button, Default w160 h20 x0 y140, Computing 13:40 - 14:25
-Gui, Add, Button, Default w160 h20 x0 y160, Computing 14:25 - 15:15
+Gui, Add, Button, Default w160 h20 x0 y100, Math 11:30 - 12:20
+Gui, Add, Button, Default w160 h20 x0 y120, Science 12:20 - 13:05
+Gui, Add, Button, Default w160 h20 x0 y140, Engineering 13:40 - 14:25
+Gui, Add, Button, Default w160 h20 x0 y160, Engineeringx 14:25 - 15:15
 Gui, Show, w160 h180 
 Return
 
@@ -404,12 +404,12 @@ Gui 7: Destroy
 Gui, Add, Button, Default w160 h20 x0 y0 gTimetable, GO BACK! 
 Gui, Add, Button, Default w160 h20 x0 y20, Form 8:15 - 8:30
 Gui, Add, Button, Default w160 h20 x0 y40, Form 8:30 - 9:20
-Gui, Add, Button, Default w160 h20 x0 y60, English 9:20 - 10:10
-Gui, Add, Button, Default w160 h20 x0 y80, Humanities 10:10 - 11:00
-Gui, Add, Button, Default w160 h20 x0 y100, Science 11:30 - 12:20
-Gui, Add, Button, Default w160 h20 x0 y120, English 12:20 - 13:05
-Gui, Add, Button, Default w160 h20 x0 y140, Future Tech 13:40 - 14:25
-Gui, Add, Button, Default w160 h20 x0 y160, Future Tech 14:25 - 15:15
+Gui, Add, Button, Default w160 h20 x0 y60, Food 9:20 - 10:10
+Gui, Add, Button, Default w160 h20 x0 y80, Food 10:10 - 11:00
+Gui, Add, Button, Default w160 h20 x0 y100, English 11:30 - 12:20
+Gui, Add, Button, Default w160 h20 x0 y120, Humanities 12:20 - 13:05
+Gui, Add, Button, Default w160 h20 x0 y140, Math 13:40 - 14:25
+Gui, Add, Button, Default w160 h20 x0 y160, Scienced 14:25 - 15:15
 Gui, Show, w160 h180 
 Return
 
@@ -420,12 +420,12 @@ Gui 7: Destroy
 Gui, Add, Button, Default w160 h20 x0 y0 gTimetable, GO BACK! 
 Gui, Add, Button, Default w160 h20 x0 y20, Form 8:15 - 8:30
 Gui, Add, Button, Default w160 h20 x0 y40, Math 8:30 - 9:20
-Gui, Add, Button, Default w160 h20 x0 y60, Science 9:20 - 10:10
+Gui, Add, Button, Default w160 h20 x0 y60, Humanities 9:20 - 10:10
 Gui, Add, Button, Default w160 h20 x0 y80, English 10:10 - 11:00
-Gui, Add, Button, Default w160 h20 x0 y100, Humanities 11:30 - 12:20
-Gui, Add, Button, Default w160 h20 x0 y120, Math 12:20 - 13:05
-Gui, Add, Button, Default w160 h20 x0 y140, MEDIA 13:40 - 14:25
-Gui, Add, Button, Default w160 h20 x0 y160, MEDIA 14:25 - 15:15
+Gui, Add, Button, Default w160 h20 x0 y100, Media 11:30 - 12:20
+Gui, Add, Button, Default w160 h20 x0 y120, Media 12:20 - 13:05
+Gui, Add, Button, Default w160 h20 x0 y140, Science 13:40 - 14:25
+Gui, Add, Button, Default w160 h20 x0 y160, Math 14:25 - 15:15
 Gui, Show, w160 h180 
 Return
 
@@ -434,13 +434,13 @@ Gui 8: Default
 Gui 7: Destroy
 Gui, Add, Button, Default w160 h20 x0 y0 gTimetable, GO BACK! 
 Gui, Add, Button, Default w160 h20 x0 y20, Form 8:15 - 8:30
-Gui, Add, Button, Default w160 h20 x0 y40, PE 8:30 - 9:20
-Gui, Add, Button, Default w160 h20 x0 y60, PE 9:20 - 10:10
-Gui, Add, Button, Default w160 h20 x0 y80, STUDY 10:10 - 11:00
-Gui, Add, Button, Default w160 h20 x0 y100, Science 11:30 - 12:20
-Gui, Add, Button, Default w160 h20 x0 y120, Math 12:20 - 13:05
-Gui, Add, Button, Default w160 h20 x0 y140, Humanities 13:40 - 14:25
-Gui, Add, Button, Default w160 h20 x0 y160, Science 14:25 - 15:15
+Gui, Add, Button, Default w160 h20 x0 y40, Christian Education 8:30 - 9:20
+Gui, Add, Button, Default w160 h20 x0 y60, Science 9:20 - 10:10
+Gui, Add, Button, Default w160 h20 x0 y80, Humanities 10:10 - 11:00
+Gui, Add, Button, Default w160 h20 x0 y100, English 11:30 - 12:20
+Gui, Add, Button, Default w160 h20 x0 y120, Science 12:20 - 13:05
+Gui, Add, Button, Default w160 h20 x0 y140, Computing 13:40 - 14:25
+Gui, Add, Button, Default w160 h20 x0 y160, Computing 14:25 - 15:15
 Gui, Show, w160 h180 
 Return
 
