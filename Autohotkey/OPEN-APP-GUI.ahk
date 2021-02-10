@@ -45,7 +45,7 @@ Gui, Add, Button, Default w50 h20 x50 y0 gGUI, GO BACK!
 Gui, Add, Button, Default w100 h20 x0 y20 gRPS, RPS
 Gui, Add, Button, Default w100 h20 x0 y40 gFlip, Flip-Coin
 Gui, Add, Button, Default w100 h20 x0 y60 gSnake, Snake
-Gui, Add, Button, Default w100 h20 x0 y80 gSteam, Steam
+Gui, Add, Button, Default w100 h20 x0 y80 gDice, Dice
 Gui, Show, w100 h100
 Return
 
@@ -76,10 +76,15 @@ Gui 2: Destroy
 Run, C:\Users\crbra\OneDrive\Desktop\Not School\GIthub\Coding\Autohotkey\SNAKE.ahk
 Return                                                                                                                                                                                                                                                  
 
-Steam:
+Dice:
 Gui 2: Destroy
-Run, C:\Program Files (x86)\Steam\steam.exe
+Dice6:
+{
+Random, Dice, 1, 6
+sleep, 100
+MsgBox, %Dice%!
 Return
+}
 
 Robot:
 Gui 19: Destroy
