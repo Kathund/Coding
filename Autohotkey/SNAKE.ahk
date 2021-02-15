@@ -29,9 +29,9 @@ gui, font, cWhite s40 Verdana bold
 Gui, Add, Text, x0 y0 w310 ReadOnly Center, SNAKE
 gui, font, s12 Verdana
 gui, Add, Text, x10 y+20 w100 ReadOnly, DIFFICULTY
-Gui, Add, Slider, x+30 w150 vSlider1 range1-3 NoTicks AltSubmit -Theme, %dif%
+Gui, Add, Slider, x+30 w150 vSlider1 range1-5 NoTicks AltSubmit -Theme, %dif%
 gui, font, s8 Verdana
-gui, Add, Text, x140 y+2 w170 ReadOnly, easy        normal        hard
+gui, Add, Text, x140 y+2 w170 ReadOnly, easy  normal  hard  bruh  hell
 gui, font, s12 Verdana
 gui, Add, Text, x10 y+30 w100 ReadOnly, BORDERS
 Gui, Add, Slider, x+30 w150 vSlider2 range1-2 NoTicks AltSubmit -Theme, %bor%
@@ -62,6 +62,10 @@ if (Slider1 = 2)
 	speeds := 75, point := 15 + extra
 if (Slider1 = 3)
 	speeds := 50, point := 20 + extra
+if (Slider1 = 4)
+	speeds := 25, point := 50 + extra
+if (Slider1 = 5)
+	speeds := 0, point := 100 + extra
 gosub, game_launch
 return
 
