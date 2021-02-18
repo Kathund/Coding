@@ -1,0 +1,61 @@
+.spaceship {
+    position: absolute;
+}
+.missile {
+    position: absolute;
+}
+canvas {
+    border: 1px dotted white;
+    background: white;
+}
+
+body {
+    background: black;
+    background-image: url('https://groklearning-cdn.com/modules/pwgzeGenotee9mfvT6Qmt6/earth.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+p {
+    color: red;
+    font-size: 20px;
+}
+
+.mothership {
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+    border-radius: 25%;
+    background-color: #0ff;
+    box-shadow: 0 0 40px 20px #fff, 0 0 100px 50px #0ff;
+}
+
+.alert {
+    padding:10px;
+    background-color: rgba(255,0,0,0.8);
+    color: white;
+    position:absolute;
+    left : 50%;
+    top : 5%;
+    width:300px;
+    z-index:1000;
+    border-radius: 10px;
+    margin-left:-150px;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
