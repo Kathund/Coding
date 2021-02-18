@@ -1,12 +1,12 @@
-﻿Sleep, 150
+﻿Sleep, 250
 Run, Cmd.exe
-Sleep, 150
+Sleep, 250
 Send, CD /
-Sleep, 150
+Sleep, 250
 Send, {enter}
-Sleep, 150
+Sleep, 250
 Send, Shutdown -s
-Sleep, 150
+Sleep, 250
 Send, {Enter}
-MsgBox, , HAVE FUN, HACE FUN, 30000
+MsgBox, , HAVE FUN, HACE FUN, 1000
 ExitApp,
