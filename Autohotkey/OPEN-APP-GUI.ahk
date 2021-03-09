@@ -475,7 +475,7 @@ Return
 
 BookScience:
 Gui 3: Destroy
-Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\2021\science\2021 Plate Tectonics Booklet EXT ADV GEN.docx
+Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\2021\science\2021 Environmental Science Booklet.docx
 Return
 
 SeqtaScience:
@@ -485,7 +485,7 @@ Return
 
 PowerPointScience:
 Gui 3: Destroy
-Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\2021\science\PPT Plate Tectonics EXT ADV GEN.pptx
+Run, School\subjects\2021\science\0.4  PPT Ecology Munyard.pptx
 Return
 
 Maths:
