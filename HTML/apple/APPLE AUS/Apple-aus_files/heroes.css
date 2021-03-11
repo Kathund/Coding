@@ -1,0 +1,1346 @@
+/* ====[  LOCALISED SCREENS � HEROES � START  ]==== */
+
+/* IPAD START */
+
+.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-ipad-ipad {
+	background-image: url("/au/home/images/heroes/ipad/ipad__bq6djchifrbm_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-ipad-ipad {
+		background-image: url("/au/home/images/heroes/ipad/ipad__bq6djchifrbm_large_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-ipad-ipad {
+		background-image: url("/au/home/images/heroes/ipad/ipad__bq6djchifrbm_medium.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-ipad-ipad {
+		background-image: url("/au/home/images/heroes/ipad/ipad__bq6djchifrbm_medium_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 735px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-ipad-ipad {
+		background-image: url("/au/home/images/heroes/ipad/ipad__bq6djchifrbm_small.jpg")
+	}
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-ipad-ipad {
+		background-image: url("/au/home/images/heroes/ipad/ipad__bq6djchifrbm_small_2x.jpg")
+	}
+}
+
+/* IPAD END */
+
+
+
+
+
+/* iPhone non-splash START */
+.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-11-pro-hero {
+	background-image: url("/au/home/images/heroes/iphone-11-pro/hero__dvsxv8smkkgi_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-11-pro-hero {
+		background-image: url("/au/home/images/heroes/iphone-11-pro/hero__dvsxv8smkkgi_large_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-11-pro-hero {
+		background-image: url("/au/home/images/heroes/iphone-11-pro/hero__dvsxv8smkkgi_medium.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-11-pro-hero {
+		background-image: url("/au/home/images/heroes/iphone-11-pro/hero__dvsxv8smkkgi_medium_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 735px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-11-pro-hero {
+		background-image: url("/au/home/images/heroes/iphone-11-pro/hero__dvsxv8smkkgi_small.jpg")
+	}
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-11-pro-hero {
+		background-image: url("/au/home/images/heroes/iphone-11-pro/hero__dvsxv8smkkgi_small_2x.jpg")
+	}
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-11-pro-hero {
+		background-image: url("/au/home/images/heroes/iphone-11-pro/hero__dvsxv8smkkgi_largetall.jpg")
+	}
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 1.5dppx), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-11-pro-hero {
+		background-image: url("/au/home/images/heroes/iphone-11-pro/hero__dvsxv8smkkgi_largetall_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 736px) and (min-height: 734px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-11-pro-hero {
+		background-image: url("/au/home/images/heroes/iphone-11-pro/hero__dvsxv8smkkgi_mediumtall.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 736px) and (min-height: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-width: 736px) and (min-height: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-width: 736px) and (min-height: 734px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-11-pro-hero {
+		background-image: url("/au/home/images/heroes/iphone-11-pro/hero__dvsxv8smkkgi_mediumtall_2x.jpg")
+	}
+}
+/* iPhone non-splash END */
+
+
+
+
+
+/* Apple Watch Series 5 START */
+
+.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-5-hero {
+	background-image: url("/au/home/images/heroes/watch-series-5/hero__dvsxv8smkkgi_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-5-hero {
+		background-image: url("/au/home/images/heroes/watch-series-5/hero__dvsxv8smkkgi_large_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-5-hero {
+		background-image: url("/au/home/images/heroes/watch-series-5/hero__dvsxv8smkkgi_medium.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-5-hero {
+		background-image: url("/au/home/images/heroes/watch-series-5/hero__dvsxv8smkkgi_medium_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 735px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-5-hero {
+		background-image: url("/au/home/images/heroes/watch-series-5/hero__dvsxv8smkkgi_small.jpg")
+	}
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-5-hero {
+		background-image: url("/au/home/images/heroes/watch-series-5/hero__dvsxv8smkkgi_small_2x.jpg")
+	}
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-5-hero {
+		background-image: url("/au/home/images/heroes/watch-series-5/hero__dvsxv8smkkgi_largetall.jpg")
+	}
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 1.5dppx), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-5-hero {
+		background-image: url("/au/home/images/heroes/watch-series-5/hero__dvsxv8smkkgi_largetall_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 736px) and (min-height: 734px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-5-hero {
+		background-image: url("/au/home/images/heroes/watch-series-5/hero__dvsxv8smkkgi_mediumtall.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 736px) and (min-height: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-width: 736px) and (min-height: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-width: 736px) and (min-height: 734px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-5-hero {
+		background-image: url("/au/home/images/heroes/watch-series-5/hero__dvsxv8smkkgi_mediumtall_2x.jpg")
+	}
+}
+
+/* Apple Watch Series 5 END */
+
+
+/* airpods pro tile START */
+
+
+.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-airpods-pro-hero {
+	width: 476px;
+	height: 364px;
+	background-size: 476px 364px;
+	background-image: url("/v/home/eq/images/heroes/airpods-pro/hero__dvsxv8smkkgi_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-airpods-pro-hero {
+		background-image: url("/v/home/eq/images/heroes/airpods-pro/hero__dvsxv8smkkgi_large_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-airpods-pro-hero {
+		width: 477px;
+		height: 364px;
+		background-size: 477px 364px;
+		background-image: url("/v/home/eq/images/heroes/airpods-pro/hero__dvsxv8smkkgi_medium.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-airpods-pro-hero {
+		background-image: url("/v/home/eq/images/heroes/airpods-pro/hero__dvsxv8smkkgi_medium_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 735px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-airpods-pro-hero {
+		width: 258px;
+		height: 333px;
+		background-size: 258px 333px;
+		background-image: url("/v/home/eq/images/heroes/airpods-pro/hero__dvsxv8smkkgi_small.jpg")
+	}
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-airpods-pro-hero {
+		background-image: url("/v/home/eq/images/heroes/airpods-pro/hero__dvsxv8smkkgi_small_2x.jpg")
+	}
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-airpods-pro-hero {
+		width: 601px;
+		height: 463px;
+		background-size: 601px 463px;
+		background-image: url("/v/home/eq/images/heroes/airpods-pro/hero__dvsxv8smkkgi_largetall.jpg")
+	}
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 1.5dppx), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-airpods-pro-hero {
+		background-image: url("/v/home/eq/images/heroes/airpods-pro/hero__dvsxv8smkkgi_largetall_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 736px) and (min-height: 734px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-airpods-pro-hero {
+		width: 522px;
+		height: 422px;
+		background-size: 522px 422px;
+		background-image: url("/v/home/eq/images/heroes/airpods-pro/hero__dvsxv8smkkgi_mediumtall.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 736px) and (min-height: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-width: 736px) and (min-height: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-width: 736px) and (min-height: 734px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-airpods-pro-hero {
+		background-image: url("/v/home/eq/images/heroes/airpods-pro/hero__dvsxv8smkkgi_mediumtall_2x.jpg")
+	}
+}
+
+/* airpods pro tile END */
+
+
+
+
+
+/* iPhone 12 hero START */
+.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-12-iphone-12 {
+	background-image: url("/au/home/images/heroes/iphone-12/iphone_12__ejhnn79bn1me_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-12-iphone-12 {
+		background-image: url("/au/home/images/heroes/iphone-12/iphone_12__ejhnn79bn1me_large_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-12-iphone-12 {
+		background-image: url("/au/home/images/heroes/iphone-12/iphone_12__ejhnn79bn1me_medium.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-12-iphone-12 {
+		background-image: url("/au/home/images/heroes/iphone-12/iphone_12__ejhnn79bn1me_medium_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-12-iphone-12 {
+		background-image: url("/au/home/images/heroes/iphone-12/iphone_12__ejhnn79bn1me_small.jpg")
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-12-iphone-12 {
+		background-image: url("/au/home/images/heroes/iphone-12/iphone_12__ejhnn79bn1me_small_2x.jpg")
+	}
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-12-iphone-12 {
+		background-image: url("/au/home/images/heroes/iphone-12/iphone_12__ejhnn79bn1me_largetall.jpg")
+	}
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 1.5dppx), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-12-iphone-12 {
+		background-image: url("/au/home/images/heroes/iphone-12/iphone_12__ejhnn79bn1me_largetall_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-12-iphone-12 {
+		background-image: url("/au/home/images/heroes/iphone-12/iphone_12__ejhnn79bn1me_mediumtall.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-iphone-12-iphone-12 {
+		background-image: url("/au/home/images/heroes/iphone-12/iphone_12__ejhnn79bn1me_mediumtall_2x.jpg")
+	}
+}
+
+/* iPhone 12 hero END */
+
+
+
+
+/* Holiday 2020 hero START */
+
+.main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-a .unit-image-iphone-12 .snowflake-image { background-image:url("/au/home/images/heroes/holiday-2020/set-a/phone__ulbbo0vgyf6y_large.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-a .unit-image-iphone-12 .snowflake-image { background-image:url("/au/home/images/heroes/holiday-2020/set-a/phone__ulbbo0vgyf6y_large_2x.png"); }
+}
+@media only screen and (max-width: 1068px) {
+  .main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-a .unit-image-iphone-12 .snowflake-image { background-image:url("/au/home/images/heroes/holiday-2020/set-a/phone__ulbbo0vgyf6y_medium.png"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-a .unit-image-iphone-12 .snowflake-image { background-image:url("/au/home/images/heroes/holiday-2020/set-a/phone__ulbbo0vgyf6y_medium_2x.png"); }
+}
+@media only screen and (max-width: 734px) {
+  .main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-a .unit-image-iphone-12 .snowflake-image { background-image:url("/au/home/images/heroes/holiday-2020/set-a/phone__ulbbo0vgyf6y_small.png"); }
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-a .unit-image-iphone-12 .snowflake-image { background-image:url("/au/home/images/heroes/holiday-2020/set-a/phone__ulbbo0vgyf6y_small_2x.png"); }
+}
+@media only screen and (min-width: 1069px) and (min-height: 776px) {
+  .main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-a .unit-image-iphone-12 .snowflake-image { background-image:url("/au/home/images/heroes/holiday-2020/set-a/phone__ulbbo0vgyf6y_largetall.png"); }
+}
+@media only screen and (min-width: 1069px) and (min-height: 776px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 1.5dppx), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 144dpi) {
+  .main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-a .unit-image-iphone-12 .snowflake-image { background-image:url("/au/home/images/heroes/holiday-2020/set-a/phone__ulbbo0vgyf6y_largetall_2x.png"); }
+}
+@media only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) {
+  .main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-a .unit-image-iphone-12 .snowflake-image { background-image:url("/au/home/images/heroes/holiday-2020/set-a/phone__ulbbo0vgyf6y_mediumtall.png"); }
+}
+@media only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (min-resolution: 144dpi) {
+  .main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-a .unit-image-iphone-12 .snowflake-image { background-image:url("/au/home/images/heroes/holiday-2020/set-a/phone__ulbbo0vgyf6y_mediumtall_2x.png"); }
+}
+
+
+.main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-b .unit-image-iphone-12-pro .snowflake-image { background-image:url("/au/home/images/heroes/holiday-2020/set-b/phone__ulbbo0vgyf6y_large.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-b .unit-image-iphone-12-pro .snowflake-image { background-image:url("/au/home/images/heroes/holiday-2020/set-b/phone__ulbbo0vgyf6y_large_2x.png"); }
+}
+@media only screen and (max-width: 1068px) {
+  .main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-b .unit-image-iphone-12-pro .snowflake-image { background-image:url("/au/home/images/heroes/holiday-2020/set-b/phone__ulbbo0vgyf6y_medium.png"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-b .unit-image-iphone-12-pro .snowflake-image { background-image:url("/au/home/images/heroes/holiday-2020/set-b/phone__ulbbo0vgyf6y_medium_2x.png"); }
+}
+@media only screen and (max-width: 734px) {
+  .main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-b .unit-image-iphone-12-pro .snowflake-image { background-image:url("/au/home/images/heroes/holiday-2020/set-b/phone__ulbbo0vgyf6y_small.png"); }
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-b .unit-image-iphone-12-pro .snowflake-image { background-image:url("/au/home/images/heroes/holiday-2020/set-b/phone__ulbbo0vgyf6y_small_2x.png"); }
+}
+@media only screen and (min-width: 1069px) and (min-height: 776px) {
+  .main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-b .unit-image-iphone-12-pro .snowflake-image { background-image:url("/au/home/images/heroes/holiday-2020/set-b/phone__ulbbo0vgyf6y_largetall.png"); }
+}
+@media only screen and (min-width: 1069px) and (min-height: 776px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 1.5dppx), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 144dpi) {
+  .main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-b .unit-image-iphone-12-pro .snowflake-image { background-image:url("/au/home/images/heroes/holiday-2020/set-b/phone__ulbbo0vgyf6y_largetall_2x.png"); }
+}
+
+.main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-b .unit-image-cases .snowflake-image {
+  background-image: url("/au/home/images/heroes/holiday-2020/set-b/case__dpyg8mb6p5ea_large.png")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-b .unit-image-cases .snowflake-image {
+    background-image: url("/au/home/images/heroes/holiday-2020/set-b/case__dpyg8mb6p5ea_large_2x.png")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-b .unit-image-cases .snowflake-image {
+    background-image: url("/au/home/images/heroes/holiday-2020/set-b/case__dpyg8mb6p5ea_medium.png")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-b .unit-image-cases .snowflake-image {
+    background-image: url("/au/home/images/heroes/holiday-2020/set-b/case__dpyg8mb6p5ea_medium_2x.png")
+  }
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) {
+  .main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-b .unit-image-cases .snowflake-image {
+    background-image: url("/au/home/images/heroes/holiday-2020/set-b/case__dpyg8mb6p5ea_largetall.png")
+  }
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 1.5dppx), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 144dpi) {
+  .main [data-module-template="heroes"] [data-unit-id="holiday-2020"] .unit-image-wrapper .unit-image-container.set-b .unit-image-cases .snowflake-image {
+    background-image: url("/au/home/images/heroes/holiday-2020/set-b/case__dpyg8mb6p5ea_largetall_2x.png")
+  }
+}
+
+/* Holiday 2020 hero END */
+
+
+
+
+
+
+/* Valentines Day 2020 */
+
+.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-valentines-day-hero-valentines-day {
+	background-image: url("/au/home/images/heroes/valentines-day/hero_valentines_day__ejofp7fnqhqq_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-valentines-day-hero-valentines-day {
+		background-image: url("/au/home/images/heroes/valentines-day/hero_valentines_day__ejofp7fnqhqq_large_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-valentines-day-hero-valentines-day {
+		background-image: url("/au/home/images/heroes/valentines-day/hero_valentines_day__ejofp7fnqhqq_medium.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-valentines-day-hero-valentines-day {
+		background-image: url("/au/home/images/heroes/valentines-day/hero_valentines_day__ejofp7fnqhqq_medium_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-valentines-day-hero-valentines-day {
+		background-image: url("/au/home/images/heroes/valentines-day/hero_valentines_day__ejofp7fnqhqq_small.jpg")
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-valentines-day-hero-valentines-day {
+		background-image: url("/au/home/images/heroes/valentines-day/hero_valentines_day__ejofp7fnqhqq_small_2x.jpg")
+	}
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-valentines-day-hero-valentines-day {
+		background-image: url("/au/home/images/heroes/valentines-day/hero_valentines_day__ejofp7fnqhqq_largetall.jpg")
+	}
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 1.5dppx), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-valentines-day-hero-valentines-day {
+		background-image: url("/au/home/images/heroes/valentines-day/hero_valentines_day__ejofp7fnqhqq_largetall_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-valentines-day-hero-valentines-day {
+		background-image: url("/au/home/images/heroes/valentines-day/hero_valentines_day__ejofp7fnqhqq_mediumtall.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-valentines-day-hero-valentines-day {
+		background-image: url("/au/home/images/heroes/valentines-day/hero_valentines_day__ejofp7fnqhqq_mediumtall_2x.jpg")
+	}
+}
+/* Valentines Day 2020 */
+
+
+
+
+/* Valentines Day Last Chance START */
+.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-valentines-day-hero-valentines-day-last-chance {
+	background-image: url("/au/home/images/heroes/valentines-day/hero_valentines_day_last_chance__d30pq2o80c8y_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-valentines-day-hero-valentines-day-last-chance {
+		background-image: url("/au/home/images/heroes/valentines-day/hero_valentines_day_last_chance__d30pq2o80c8y_large_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-valentines-day-hero-valentines-day-last-chance {
+		background-image: url("/au/home/images/heroes/valentines-day/hero_valentines_day_last_chance__d30pq2o80c8y_medium.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-valentines-day-hero-valentines-day-last-chance {
+		background-image: url("/au/home/images/heroes/valentines-day/hero_valentines_day_last_chance__d30pq2o80c8y_medium_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-valentines-day-hero-valentines-day-last-chance {
+		background-image: url("/au/home/images/heroes/valentines-day/hero_valentines_day_last_chance__d30pq2o80c8y_small.jpg")
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-valentines-day-hero-valentines-day-last-chance {
+		background-image: url("/au/home/images/heroes/valentines-day/hero_valentines_day_last_chance__d30pq2o80c8y_small_2x.jpg")
+	}
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-valentines-day-hero-valentines-day-last-chance {
+		background-image: url("/au/home/images/heroes/valentines-day/hero_valentines_day_last_chance__d30pq2o80c8y_largetall.jpg")
+	}
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 1.5dppx), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-valentines-day-hero-valentines-day-last-chance {
+		background-image: url("/au/home/images/heroes/valentines-day/hero_valentines_day_last_chance__d30pq2o80c8y_largetall_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-valentines-day-hero-valentines-day-last-chance {
+		background-image: url("/au/home/images/heroes/valentines-day/hero_valentines_day_last_chance__d30pq2o80c8y_mediumtall.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-valentines-day-hero-valentines-day-last-chance {
+		background-image: url("/au/home/images/heroes/valentines-day/hero_valentines_day_last_chance__d30pq2o80c8y_mediumtall_2x.jpg")
+	}
+}
+/* Valentines Day Last Chance END */
+/* ====[  LOCALISED SCREENS � HEROES � END  ]==== */
+
+
+
+
+/* AU Red Cross Logo START */
+
+.main [data-module-template="red-cross"] .logo-image-red-cross-logo-hero {
+    width: 174px;
+    height: 76px;
+    background-size: 174px 76px;
+    background-repeat: no-repeat;
+    background-image: url("/au/home/images/heroes/red-cross/logo_arc__cqzlb6z7yfo2_large.jpg");
+    display: inline-block;
+    margin: 0
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .main [data-module-template="red-cross"] .logo-image-red-cross-logo-hero {
+        background-image: url("/au/home/images/heroes/red-cross/logo_arc__cqzlb6z7yfo2_large_2x.jpg")
+    }
+}
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="red-cross"] .logo-image-red-cross-logo-hero {
+        width: 127px;
+        height: 66px;
+        background-size: 127px 66px;
+        background-repeat: no-repeat;
+        background-image: url("/au/home/images/heroes/red-cross/logo_arc__cqzlb6z7yfo2_small.jpg")
+    }
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .main [data-module-template="red-cross"] .logo-image-red-cross-logo-hero {
+        background-image: url("/au/home/images/heroes/red-cross/logo_arc__cqzlb6z7yfo2_small_2x.jpg")
+    }
+}
+
+
+.main [data-module-template="red-cross"] .red-cross {
+	padding: 12px 0px;
+}
+@media only screen and (max-width: 734px) {
+	.main [data-module-template="red-cross"] .red-cross {
+		padding: 16px 0px;
+	}
+}
+
+.main [data-module-template="red-cross"].standalone-module .module-content {
+	background-color: #fff;
+}
+
+/* Fixes for Arcade Takeover disclaimer */
+[data-layout-name=arcade-takeover] .footnotes{
+	min-height: 90px;
+}
+
+[data-layout-name=arcade-takeover] .main [data-module-template="arcade-takeover-airpods-arcade-animation"] .cta-links .try-button .footnote {
+    font-size: 1em;
+    bottom: 0.2em;
+}
+/* Fixes for Arcade Takeover disclaimer */
+
+/* AU Red Cross Logo END */
+
+
+
+
+
+
+
+/* AU TV+ device Offer Hero START */
+.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-tv-plus-device-offer-hero {
+	background-image: url("/au/home/images/heroes/tv-plus-device-offer/hero__dvsxv8smkkgi_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-tv-plus-device-offer-hero {
+		background-image: url("/au/home/images/heroes/tv-plus-device-offer/hero__dvsxv8smkkgi_large_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-tv-plus-device-offer-hero {
+		background-image: url("/au/home/images/heroes/tv-plus-device-offer/hero__dvsxv8smkkgi_medium.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-tv-plus-device-offer-hero {
+		background-image: url("/au/home/images/heroes/tv-plus-device-offer/hero__dvsxv8smkkgi_medium_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-tv-plus-device-offer-hero {
+		background-image: url("/au/home/images/heroes/tv-plus-device-offer/hero__dvsxv8smkkgi_small.jpg")
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-tv-plus-device-offer-hero {
+		background-image: url("/au/home/images/heroes/tv-plus-device-offer/hero__dvsxv8smkkgi_small_2x.jpg")
+	}
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-tv-plus-device-offer-hero {
+		background-image: url("/au/home/images/heroes/tv-plus-device-offer/hero__dvsxv8smkkgi_largetall.jpg")
+	}
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 1.5dppx), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-tv-plus-device-offer-hero {
+		background-image: url("/au/home/images/heroes/tv-plus-device-offer/hero__dvsxv8smkkgi_largetall_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-tv-plus-device-offer-hero {
+		background-image: url("/au/home/images/heroes/tv-plus-device-offer/hero__dvsxv8smkkgi_mediumtall.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-tv-plus-device-offer-hero {
+		background-image: url("/au/home/images/heroes/tv-plus-device-offer/hero__dvsxv8smkkgi_mediumtall_2x.jpg")
+	}
+}
+
+/* AU TV+ device Offer Hero END */
+
+
+/* Mac Takeover START */
+
+.main [data-module-template="mac-takeover"] .unit-image-wrapper .unit-image.unit-image-battery {
+    width: 268px;
+    height: 113px;
+    background-size: 268px 113px;
+    background-repeat: no-repeat;
+    background-image: url("/au/home/images/mac-takeover/battery__eh2bsae52z8m_large.jpg")
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .main [data-module-template="mac-takeover"] .unit-image-wrapper .unit-image.unit-image-battery {
+        background-image: url("/au/home/images/mac-takeover/battery__eh2bsae52z8m_large_2x.jpg")
+    }
+}
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="mac-takeover"] .unit-image-wrapper .unit-image.unit-image-battery {
+        width: 231px;
+        height: 98px;
+        background-size: 231px 98px;
+        background-repeat: no-repeat;
+        background-image: url("/au/home/images/mac-takeover/battery__eh2bsae52z8m_medium.jpg")
+    }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .main [data-module-template="mac-takeover"] .unit-image-wrapper .unit-image.unit-image-battery {
+        background-image: url("/au/home/images/mac-takeover/battery__eh2bsae52z8m_medium_2x.jpg")
+    }
+}
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="mac-takeover"] .unit-image-wrapper .unit-image.unit-image-battery {
+        width: 179px;
+        height: 163px;
+        background-size: 179px 163px;
+        background-repeat: no-repeat;
+        background-image: url("/au/home/images/mac-takeover/battery__eh2bsae52z8m_small.jpg")
+    }
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .main [data-module-template="mac-takeover"] .unit-image-wrapper .unit-image.unit-image-battery {
+        background-image: url("/au/home/images/mac-takeover/battery__eh2bsae52z8m_small_2x.jpg")
+    }
+}
+
+
+
+.main [data-module-template="mac-takeover"] [data-unit-id="features"] .tile-battery .tile-image {
+	background-image: url("/au/home/images/mac-takeover/battery__eh2bsae52z8m_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	.main [data-module-template="mac-takeover"] [data-unit-id="features"] .tile-battery .tile-image {
+		background-image: url("/au/home/images/mac-takeover/battery__eh2bsae52z8m_large_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.main [data-module-template="mac-takeover"] [data-unit-id="features"] .tile-battery .tile-image {
+		background-image: url("/au/home/images/mac-takeover/battery__eh2bsae52z8m_medium.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.main [data-module-template="mac-takeover"] [data-unit-id="features"] .tile-battery .tile-image {
+		background-image: url("/au/home/images/mac-takeover/battery__eh2bsae52z8m_medium_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.main [data-module-template="mac-takeover"] [data-unit-id="features"] .tile-battery .tile-image {
+		background-image: url("/au/home/images/mac-takeover/battery__eh2bsae52z8m_small.jpg")
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.main [data-module-template="mac-takeover"] [data-unit-id="features"] .tile-battery .tile-image {
+		background-image: url("/au/home/images/mac-takeover/battery__eh2bsae52z8m_small_2x.jpg")
+	}
+}
+
+
+
+.main [data-module-template="mac-takeover"] .unit-image-wrapper .unit-image.unit-image-processor {
+    width: 116px;
+    height: 165px;
+    background-size: 116px 165px;
+    background-repeat: no-repeat;
+    background-image: url("/au/home/images/mac-takeover/processor__dw14i1ynm30i_large.jpg")
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .main [data-module-template="mac-takeover"] .unit-image-wrapper .unit-image.unit-image-processor {
+        background-image: url("/au/home/images/mac-takeover/processor__dw14i1ynm30i_large_2x.jpg")
+    }
+}
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="mac-takeover"] .unit-image-wrapper .unit-image.unit-image-processor {
+        width: 85px;
+        height: 134px;
+        background-size: 85px 134px;
+        background-repeat: no-repeat;
+        background-image: url("/au/home/images/mac-takeover/processor__dw14i1ynm30i_medium.jpg")
+    }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .main [data-module-template="mac-takeover"] .unit-image-wrapper .unit-image.unit-image-processor {
+        background-image: url("/au/home/images/mac-takeover/processor__dw14i1ynm30i_medium_2x.jpg")
+    }
+}
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="mac-takeover"] .unit-image-wrapper .unit-image.unit-image-processor {
+        width: 85px;
+        height: 129px;
+        background-size: 85px 129px;
+        background-repeat: no-repeat;
+        background-image: url("/au/home/images/mac-takeover/processor__dw14i1ynm30i_small.jpg")
+    }
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .main [data-module-template="mac-takeover"] .unit-image-wrapper .unit-image.unit-image-processor {
+        background-image: url("/au/home/images/mac-takeover/processor__dw14i1ynm30i_small_2x.jpg")
+    }
+}
+
+
+.main [data-module-template="mac-takeover"] [data-unit-id="features"] .tile-processor .tile-image {
+    width: 116px;
+    height: 165px;
+    background-size: 116px 165px;
+    background-repeat: no-repeat;
+    background-image: url("/au/home/images/mac-takeover/processor__dw14i1ynm30i_large.jpg")
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .main [data-module-template="mac-takeover"] [data-unit-id="features"] .tile-processor .tile-image {
+        background-image: url("/au/home/images/mac-takeover/processor__dw14i1ynm30i_large_2x.jpg")
+    }
+}
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="mac-takeover"] [data-unit-id="features"] .tile-processor .tile-image {
+        width: 85px;
+        height: 134px;
+        background-size: 85px 134px;
+        background-repeat: no-repeat;
+        background-image: url("/au/home/images/mac-takeover/processor__dw14i1ynm30i_medium.jpg")
+    }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .main [data-module-template="mac-takeover"] [data-unit-id="features"] .tile-processor .tile-image {
+        background-image: url("/au/home/images/mac-takeover/processor__dw14i1ynm30i_medium_2x.jpg")
+    }
+}
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="mac-takeover"] [data-unit-id="features"] .tile-processor .tile-image {
+        width: 85px;
+        height: 129px;
+        background-size: 85px 129px;
+        background-repeat: no-repeat;
+        background-image: url("/au/home/images/mac-takeover/processor__dw14i1ynm30i_small.jpg")
+    }
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .main [data-module-template="mac-takeover"] [data-unit-id="features"] .tile-processor .tile-image {
+        background-image: url("/au/home/images/mac-takeover/processor__dw14i1ynm30i_small_2x.jpg")
+    }
+}
+
+
+
+
+.main [data-module-template="mac-takeover"] .unit-image-wrapper .unit-image.unit-image-storage {
+    width: 191px;
+    height: 170px;
+    background-size: 191px 170px;
+    background-repeat: no-repeat;
+    background-image: url("/au/home/images/mac-takeover/storage__f21ocvlbqpaq_large.jpg")
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .main [data-module-template="mac-takeover"] .unit-image-wrapper .unit-image.unit-image-storage {
+        background-image: url("/au/home/images/mac-takeover/storage__f21ocvlbqpaq_large_2x.jpg")
+    }
+}
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="mac-takeover"] .unit-image-wrapper .unit-image.unit-image-storage {
+        width: 139px;
+        height: 138px;
+        background-size: 139px 138px;
+        background-repeat: no-repeat;
+        background-image: url("/au/home/images/mac-takeover/storage__f21ocvlbqpaq_medium.jpg")
+    }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .main [data-module-template="mac-takeover"] .unit-image-wrapper .unit-image.unit-image-storage {
+        background-image: url("/au/home/images/mac-takeover/storage__f21ocvlbqpaq_medium_2x.jpg")
+    }
+}
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="mac-takeover"] .unit-image-wrapper .unit-image.unit-image-storage {
+        width: 139px;
+        height: 132px;
+        background-size: 139px 132px;
+        background-repeat: no-repeat;
+        background-image: url("/au/home/images/mac-takeover/storage__f21ocvlbqpaq_small.jpg")
+    }
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .main [data-module-template="mac-takeover"] .unit-image-wrapper .unit-image.unit-image-storage {
+        background-image: url("/au/home/images/mac-takeover/storage__f21ocvlbqpaq_small_2x.jpg")
+    }
+}
+
+
+
+
+.main [data-module-template="mac-takeover"] [data-unit-id="features"] .tile-storage .tile-image {
+    width: 191px;
+    height: 170px;
+    background-size: 191px 170px;
+    background-repeat: no-repeat;
+    background-image: url("/au/home/images/mac-takeover/storage__f21ocvlbqpaq_large.jpg")
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .main [data-module-template="mac-takeover"] [data-unit-id="features"] .tile-storage .tile-image {
+        background-image: url("/au/home/images/mac-takeover/storage__f21ocvlbqpaq_large_2x.jpg")
+    }
+}
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="mac-takeover"] [data-unit-id="features"] .tile-storage .tile-image {
+        width: 139px;
+        height: 138px;
+        background-size: 139px 138px;
+        background-repeat: no-repeat;
+        background-image: url("/au/home/images/mac-takeover/storage__f21ocvlbqpaq_medium.jpg")
+    }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .main [data-module-template="mac-takeover"] [data-unit-id="features"] .tile-storage .tile-image {
+        background-image: url("/au/home/images/mac-takeover/storage__f21ocvlbqpaq_medium_2x.jpg")
+    }
+}
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="mac-takeover"] [data-unit-id="features"] .tile-storage .tile-image {
+        width: 139px;
+        height: 132px;
+        background-size: 139px 132px;
+        background-repeat: no-repeat;
+        background-image: url("/au/home/images/mac-takeover/storage__f21ocvlbqpaq_small.jpg")
+    }
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .main [data-module-template="mac-takeover"] [data-unit-id="features"] .tile-storage .tile-image {
+        background-image: url("/au/home/images/mac-takeover/storage__f21ocvlbqpaq_small_2x.jpg")
+    }
+}
+
+
+/* Mac Takeover END */
+
+
+
+
+/* World Aids Day START */
+
+.main
+	[data-module-template="heroes"]
+	.unit-image-wrapper
+	.unit-image.unit-image-world-aids-day-hero {
+	width: 3010px;
+	height: 624px;
+	background-size: 3010px 624px;
+	background-repeat: no-repeat;
+	background-image: url("/au/home/images/heroes/world-aids-day/hero__dvsxv8smkkgi_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-resolution: 1.5dppx),
+	(-webkit-min-device-pixel-ratio: 1.5),
+	(min-resolution: 144dpi) {
+	.main
+		[data-module-template="heroes"]
+		.unit-image-wrapper
+		.unit-image.unit-image-world-aids-day-hero {
+		background-image: url("/au/home/images/heroes/world-aids-day/hero__dvsxv8smkkgi_large_2x.jpg");
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.main
+		[data-module-template="heroes"]
+		.unit-image-wrapper
+		.unit-image.unit-image-world-aids-day-hero {
+		width: 1068px;
+		height: 617px;
+		background-size: 1068px 617px;
+		background-repeat: no-repeat;
+		background-image: url("/au/home/images/heroes/world-aids-day/hero__dvsxv8smkkgi_medium.jpg");
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.main
+		[data-module-template="heroes"]
+		.unit-image-wrapper
+		.unit-image.unit-image-world-aids-day-hero {
+		background-image: url("/au/home/images/heroes/world-aids-day/hero__dvsxv8smkkgi_medium_2x.jpg");
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.main
+		[data-module-template="heroes"]
+		.unit-image-wrapper
+		.unit-image.unit-image-world-aids-day-hero {
+		width: 734px;
+		height: 548px;
+		background-size: 734px 548px;
+		background-repeat: no-repeat;
+		background-image: url("/au/home/images/heroes/world-aids-day/hero__dvsxv8smkkgi_small.jpg");
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.main
+		[data-module-template="heroes"]
+		.unit-image-wrapper
+		.unit-image.unit-image-world-aids-day-hero {
+		background-image: url("/au/home/images/heroes/world-aids-day/hero__dvsxv8smkkgi_small_2x.jpg");
+	}
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) {
+	.main
+		[data-module-template="heroes"]
+		.unit-image-wrapper
+		.unit-image.unit-image-world-aids-day-hero {
+		width: 3010px;
+		height: 736px;
+		background-size: 3010px 736px;
+		background-repeat: no-repeat;
+		background-image: url("/au/home/images/heroes/world-aids-day/hero__dvsxv8smkkgi_largetall.jpg");
+	}
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 1.5dppx),
+	only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 144dpi) {
+	.main
+		[data-module-template="heroes"]
+		.unit-image-wrapper
+		.unit-image.unit-image-world-aids-day-hero {
+		background-image: url("/au/home/images/heroes/world-aids-day/hero__dvsxv8smkkgi_largetall_2x.jpg");
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) {
+	.main
+		[data-module-template="heroes"]
+		.unit-image-wrapper
+		.unit-image.unit-image-world-aids-day-hero {
+		width: 1068px;
+		height: 698px;
+		background-size: 1068px 698px;
+		background-repeat: no-repeat;
+		background-image: url("/au/home/images/heroes/world-aids-day/hero__dvsxv8smkkgi_mediumtall.jpg");
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (min-resolution: 144dpi) {
+	.main
+		[data-module-template="heroes"]
+		.unit-image-wrapper
+		.unit-image.unit-image-world-aids-day-hero {
+		background-image: url("/au/home/images/heroes/world-aids-day/hero__dvsxv8smkkgi_mediumtall_2x.jpg");
+	}
+}
+
+.main
+	[data-module-template="heroes"]
+	[data-unit-id="world-aids-day"]
+	.unit-wrapper {
+	background: #af0e23;
+}
+
+@media only screen and (max-width: 734px) {
+	.main
+		[data-module-template="heroes"]
+		[data-unit-id="world-aids-day"]
+		.unit-copy-wrapper
+		.headline {
+		max-width: 420px;
+	}
+}
+
+.main
+	[data-module-template="heroes"]
+	[data-unit-id="world-aids-day"]
+	.unit-copy-wrapper
+	.cta-links
+	a {
+	color: #fff;
+}
+
+/* World Aids Day END */
+
+
+
+
+
+/* ====[  LOCAL FIXES � START  ]==== */
+
+/* TV+ offer headline wrapping fix START */
+.main [data-module-template="heroes"] [data-unit-id="tv-plus-device-offer"] .unit-copy-wrapper .subhead
+{
+	max-width: 392px;
+}
+@media only screen and (max-width: 1068px)
+{
+	.main [data-module-template="heroes"] [data-unit-id="tv-plus-device-offer"] .unit-copy-wrapper .subhead
+	{
+		max-width: 340px;
+	}
+}
+
+@media only screen and (max-width: 734px)
+{
+	.main [data-module-template="heroes"] [data-unit-id="tv-plus-device-offer"] .unit-copy-wrapper .subhead
+	{
+		max-width: 272px;
+	}
+}
+/* TV+ offer headline wrapping fix END */
+
+
+
+
+.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-gaad-hero {
+
+    background-image: url("/au/home/images/heroes/gaad/hero__dvsxv8smkkgi_large.jpg")
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-gaad-hero {
+        background-image: url("/au/home/images/heroes/gaad/hero__dvsxv8smkkgi_large_2x.jpg")
+    }
+}
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-gaad-hero {
+
+        background-image: url("/au/home/images/heroes/gaad/hero__dvsxv8smkkgi_medium.jpg")
+    }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-gaad-hero {
+        background-image: url("/au/home/images/heroes/gaad/hero__dvsxv8smkkgi_medium_2x.jpg")
+    }
+}
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-gaad-hero {
+
+        background-image: url("/au/home/images/heroes/gaad/hero__dvsxv8smkkgi_small.jpg")
+    }
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-gaad-hero {
+        background-image: url("/au/home/images/heroes/gaad/hero__dvsxv8smkkgi_small_2x.jpg")
+    }
+}
+@media only screen and (min-width: 1069px) and (min-height: 776px) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-gaad-hero {
+
+        background-image: url("/au/home/images/heroes/gaad/hero__dvsxv8smkkgi_largetall.jpg")
+    }
+}
+@media only screen and (min-width: 1069px) and (min-height: 776px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 1.5dppx),
+only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 144dpi) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-gaad-hero {
+        background-image: url("/au/home/images/heroes/gaad/hero__dvsxv8smkkgi_largetall_2x.jpg")
+    }
+}
+@media only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-gaad-hero {
+
+        background-image: url("/au/home/images/heroes/gaad/hero__dvsxv8smkkgi_mediumtall.jpg")
+    }
+}
+@media only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (min-resolution: 144dpi) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-gaad-hero {
+        background-image: url("/au/home/images/heroes/gaad/hero__dvsxv8smkkgi_mediumtall_2x.jpg")
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-6-hero {
+	background-image: url("/au/home/images/heroes/watch-series-6/hero__dvsxv8smkkgi_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-6-hero {
+		background-image: url("/au/home/images/heroes/watch-series-6/hero__dvsxv8smkkgi_large_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-6-hero {
+		background-image: url("/au/home/images/heroes/watch-series-6/hero__dvsxv8smkkgi_medium.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-6-hero {
+		background-image: url("/au/home/images/heroes/watch-series-6/hero__dvsxv8smkkgi_medium_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-6-hero {
+		background-image: url("/au/home/images/heroes/watch-series-6/hero__dvsxv8smkkgi_small.jpg")
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-6-hero {
+		background-image: url("/au/home/images/heroes/watch-series-6/hero__dvsxv8smkkgi_small_2x.jpg")
+	}
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-6-hero {
+		background-image: url("/au/home/images/heroes/watch-series-6/hero__dvsxv8smkkgi_largetall.jpg")
+	}
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 1.5dppx), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-6-hero {
+		background-image: url("/au/home/images/heroes/watch-series-6/hero__dvsxv8smkkgi_largetall_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-6-hero {
+		background-image: url("/au/home/images/heroes/watch-series-6/hero__dvsxv8smkkgi_mediumtall.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-6-hero {
+		background-image: url("/au/home/images/heroes/watch-series-6/hero__dvsxv8smkkgi_mediumtall_2x.jpg")
+	}
+}
+
+
+
+
+
+
+
+
+
+.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-se-hero {
+	background-image: url("/au/home/images/heroes/watch-se/hero__dvsxv8smkkgi_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-se-hero {
+		background-image: url("/au/home/images/heroes/watch-se/hero__dvsxv8smkkgi_large_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-se-hero {
+		background-image: url("/au/home/images/heroes/watch-se/hero__dvsxv8smkkgi_medium.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-se-hero {
+		background-image: url("/au/home/images/heroes/watch-se/hero__dvsxv8smkkgi_medium_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-se-hero {
+		background-image: url("/au/home/images/heroes/watch-se/hero__dvsxv8smkkgi_small.jpg")
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-se-hero {
+		background-image: url("/au/home/images/heroes/watch-se/hero__dvsxv8smkkgi_small_2x.jpg")
+	}
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-se-hero {
+		background-image: url("/au/home/images/heroes/watch-se/hero__dvsxv8smkkgi_largetall.jpg")
+	}
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 1.5dppx), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-se-hero {
+		background-image: url("/au/home/images/heroes/watch-se/hero__dvsxv8smkkgi_largetall_2x.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-se-hero {
+		background-image: url("/au/home/images/heroes/watch-se/hero__dvsxv8smkkgi_mediumtall.jpg")
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-width: 735px) and (min-height: 734px) and (min-resolution: 144dpi) {
+	.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-se-hero {
+		background-image: url("/au/home/images/heroes/watch-se/hero__dvsxv8smkkgi_mediumtall_2x.jpg")
+	}
+}
+
+/* ====[  LOCAL FIXES � END  ]==== *
