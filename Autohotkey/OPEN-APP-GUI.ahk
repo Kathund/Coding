@@ -475,7 +475,7 @@ Return
 
 BookScience:
 Gui 3: Destroy
-Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\2021\science\2021 Environmental Science Booklet.docx
+Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\2021\science\2021 9SE Booklet_Waves.docx
 Return
 
 SeqtaScience:
@@ -485,7 +485,7 @@ Return
 
 PowerPointScience:
 Gui 3: Destroy
-Run, School\subjects\2021\science\0.4  PPT Ecology Munyard.pptx
+Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\2021\science\Waves 2021 EXT.pptx
 Return
 
 Maths:
