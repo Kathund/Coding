@@ -5,7 +5,7 @@ MsgBox, bruh %XX% AND %YY%
 Return
 
 !a::
-ImageSearch, XXX, YYY, 0, 1398, 190, 1544, C:\Users\crbra\OneDrive\Desktop\ttt.png
+ImageSearch, XXX, YYY, 0, 1398, 190, 1544, "C:\Users\crbra\OneDrive\Desktop\ttt.png"
 Sleep, 250
 MsgBox, bruh %XXX% AND %YYY%
 Return
