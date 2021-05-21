@@ -21,7 +21,7 @@ Return
         {
                 SplashTextOn, 300, 50, Closing in..., 3
                 WinMove, Closing in..., , 0, 0
-                Sleep, 10009
+                Sleep, 1000
                 SplashTextOff
                 SplashTextOn, 300, 50, Closing in..., 2
                 WinMove, Closing in..., , 0, 0
@@ -43,7 +43,7 @@ Cheat:
 Loop, 
 {
         Sleep, 100
-        MouseClick, Left, 1196, 1371, 1, 0
+        MouseClick, Left, 1510, 1444, 1, 0
         Sleep, 300
         Send, ^a
         Sleep, 300
