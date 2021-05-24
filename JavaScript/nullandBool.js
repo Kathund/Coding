@@ -4,7 +4,7 @@ var temp =
 
 console.log("Current temperature is: " + temp)
 
-let actualMarks = 10
+let actualMarks = 7
 
 let myGrade = (actualMarks <= 10)
 
