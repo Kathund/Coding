@@ -17,4 +17,4 @@ if (isVerified && isLoggedIn && hasPaymentToken) {
 }
 
 
-https://www.youtube.com/watch?v=RZwUrFRalgs&list=PLRAV69dS1uWTSu9cVg8jjXW8jndOYYJPP&index=9
+// https://www.youtube.com/watch?v=RZwUrFRalgs&list=PLRAV69dS1uWTSu9cVg8jjXW8jndOYYJPP&index=9
