@@ -471,7 +471,7 @@ Gui, Add, Button, W100 H20 x0 y40 gPowerPointScience, PowerPont
 Gui, Add, Button, W100 H20 x0 y60 gSeqtaScience, Seqta
 
 Gui, Show, w100 h80 Center, bald
-Returna
+Return
 
 BookScience:
 Gui 3: Destroy
