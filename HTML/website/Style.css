@@ -1,0 +1,12 @@
+body {
+  background-image: url("3235.jpg");
+}
+h1 {
+  color: blue;
+}
+p {
+	color: orange;
+	margin: auto;
+	width: 200%;
+	padding:10px;
+}
