@@ -475,7 +475,7 @@ Return
 
 BookScience:
 Gui 3: Destroy
-Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\2021\science\2021 9SE Booklet_Waves.docx
+Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\2021\science\2021 9SC Booklet_Electricity.docx
 Return
 
 SeqtaScience:
@@ -485,7 +485,7 @@ Return
 
 PowerPointScience:
 Gui 3: Destroy
-Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\2021\science\Waves 2021 EXT.pptx
+Run, C:\Users\crbra\OneDrive\Desktop\School\subjects\2021\science\Electricity 2021.pptx
 Return
 
 Maths:
@@ -1216,3 +1216,10 @@ MouseClick, left, 980, 730, 1, 0,
 
 
 
+!s::
+InputBox, UserInput,Search, , ,250,100
+if %UserInput%
+{
+	Run, https://www.google.com/search?q=%UserInput%
+}
+Return
