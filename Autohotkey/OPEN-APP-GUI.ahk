@@ -1101,10 +1101,6 @@ Reload:
 Reload
 Return
 
-!#Escape::
-Run, C:\ProgramData\Microsoft\Windows\Start Menu\Programs\System Tools\Task Manager.lnk
-Return
-
 #Up::
 Goto, VolUP
 Return
@@ -1157,7 +1153,7 @@ Return
 
 !i::
 FormatTime, CurrDATE, HHmmsstt
-Sleep, 250
+Sleep, 50
 Send, %CurrDATE%
 Return
 
