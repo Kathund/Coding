@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #343434;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    margin-top: 0px;
+}
+
+h1 {
+    left: 1ch;
+    font-size: 3rem;
+    color: orange;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+p, ul li {
+    left: 1ch;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+}
+
+img {
+    padding: 10px;
+    left: 1rem;
+    transition: all 100ms ease-in-out;
+}
+
+img:hover {
+    transform: rotate(20deg);
+}
