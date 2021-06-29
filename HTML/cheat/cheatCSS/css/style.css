@@ -48,6 +48,18 @@ a:visited{
 	border:none;
 }
 
+.button-1 {
+	background-color:#2a2a2a;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+}
+
+.button-1:hover{
+	background:red;
+	color:#fff;
+}
+
 .button:hover{
 	background:red;
 	color:#fff;
@@ -93,8 +105,30 @@ a:visited{
 	word-spacing: 1em;
 }
 
+.box-1:hover {
+	background-color: #fff;
+	color: #333;
+	border: 5px red dotted;
+}
+
 .box-2{
-	border:3px dotted #ccc;
+	background-color:#333;
+	color:#fff;
+	border:3px solid red;
+	padding:20px;
+	margin:20px 0;
+}
+
+.box-2:hover {
+	background-color: #fff;
+	color: #333;
+	border: 5px red dotted;
+}
+
+.goodbyeWorld {
+	background-color:#333;
+	color:#fff;
+	border:6px solid red;
 	padding:20px;
 	margin:20px 0;
 }
